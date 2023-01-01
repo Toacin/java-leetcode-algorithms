@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d493f2fb-fe69-452c-90eb-bc82ff0f411e" name="Changes" comment="" />
+    <list default="true" id="d493f2fb-fe69-452c-90eb-bc82ff0f411e" name="Changes" comment="&quot;previous algorithms added in&quot;">
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RemoveDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RemoveDuplicates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestMerge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestMerge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commonPreFix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/commonPreFix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commonSuffix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/commonSuffix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hundredthPrime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hundredthPrime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/insertPosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/insertPosition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lengthOfFinalWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lengthOfFinalWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mergeSortedArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mergeSortedArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mergeSortedArrays.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mergeSortedArrays.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/palindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/validParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/validParentheses.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,13 +32,16 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Jk3rqGvUyWvVQNcGV001YnbsHp" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -35,6 +53,20 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="lengthOfFinalWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lengthOfFinalWord" />
+      <module name="java-leetcode-algorithms" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.lengthOfFinalWord" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -43,11 +75,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672608457090</updated>
-      <workItem from="1672608458163" duration="313000" />
+      <workItem from="1672608458163" duration="623000" />
     </task>
+    <task id="LOCAL-00001" summary="&quot;previous algorithms added in&quot;">
+      <created>1672608937388</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1672608937388</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="&quot;previous algorithms added in&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;previous algorithms added in&quot;" />
   </component>
 </project>
