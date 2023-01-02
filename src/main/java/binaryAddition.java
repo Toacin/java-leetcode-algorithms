@@ -41,9 +41,9 @@ public class binaryAddition {
         String stringB = "10011010";
         String stringA = "1110000";
 
-//        System.out.println(addBinary(stringA, stringB));
+        System.out.println(addBinary(stringA, stringB));
 
-        BigInteger test = new BigInteger("1.0");
-        System.out.println(test);
+//        BigInteger test = new BigInteger("1.0");
+//        System.out.println(test);
     }
 }

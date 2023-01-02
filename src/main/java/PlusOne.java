@@ -26,8 +26,10 @@ public class PlusOne {
 
     static public void main(String[] args) {
         int[] testArray1 = {1, 0, 3, 4};
-        int[] testArray2 = {4, 5, 6, 2, 4, 5};
+        int[] testArray2 = {4, 5, 6, 2, 4, 9};
+        BigInteger test = new BigInteger("3");
 
-        System.out.println(Arrays.toString(plusOne(testArray1)));
+        System.out.println((test.toString()));
+//        System.out.println(Arrays.toString(plusOne(testArray2)));
     }
 }
