@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d493f2fb-fe69-452c-90eb-bc82ff0f411e" name="Changes" comment="&quot;added maven framework support&quot;">
-      <change afterPath="$PROJECT_DIR$/src/main/java/PlusOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/commonPreFixTest.java" afterDir="false" />
+    <list default="true" id="d493f2fb-fe69-452c-90eb-bc82ff0f411e" name="Changes" comment="&quot;very unoptimized as of now&quot;">
+      <change afterPath="$PROJECT_DIR$/src/main/java/binaryAddition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/binaryAdditionSimplified.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/binaryAdditionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-leetcode-algorithms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java-leetcode-algorithms.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,9 +61,16 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PlusOne">
+  <component name="RunManager">
     <configuration name="PlusOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PlusOne" />
+      <module name="java-leetcode-algorithms" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="binaryAddition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="binaryAddition" />
       <module name="java-leetcode-algorithms" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -86,6 +92,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.binaryAddition" />
         <item itemvalue="Application.PlusOne" />
         <item itemvalue="Application.mergeSortedArrays" />
         <item itemvalue="Application.lengthOfFinalWord" />
@@ -101,7 +108,7 @@
       <option name="presentableId" value="Default" />
       <updated>1672608457090</updated>
       <workItem from="1672608458163" duration="807000" />
-      <workItem from="1672609278320" duration="3564000" />
+      <workItem from="1672609278320" duration="15695000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;previous algorithms added in&quot;">
       <created>1672608937388</created>
@@ -117,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672609102889</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="&quot;very unoptimized as of now&quot;">
+      <created>1672613109870</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1672613109870</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +141,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="&quot;previous algorithms added in&quot;" />
     <MESSAGE value="&quot;added maven framework support&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;added maven framework support&quot;" />
+    <MESSAGE value="&quot;very unoptimized as of now&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;very unoptimized as of now&quot;" />
   </component>
 </project>
