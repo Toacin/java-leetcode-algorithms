@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d493f2fb-fe69-452c-90eb-bc82ff0f411e" name="Changes" comment="&quot;optimizations made to plus one and binary addition&quot;">
-      <change afterPath="$PROJECT_DIR$/src/main/java/squareRoote.java" afterDir="false" />
+    <list default="true" id="d493f2fb-fe69-452c-90eb-bc82ff0f411e" name="Changes" comment="&quot;Square Root numbers working properly both binary and linear solution&quot;">
+      <change afterPath="$PROJECT_DIR$/src/main/java/inOrderTraversal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -107,7 +107,7 @@
       <updated>1672608457090</updated>
       <workItem from="1672608458163" duration="807000" />
       <workItem from="1672609278320" duration="17526000" />
-      <workItem from="1672687457021" duration="8646000" />
+      <workItem from="1672687457021" duration="15252000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;previous algorithms added in&quot;">
       <created>1672608937388</created>
@@ -144,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672636711761</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="&quot;Square Root numbers working properly both binary and linear solution&quot;">
+      <created>1672697193095</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1672697193095</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,6 +164,7 @@
     <MESSAGE value="&quot;very unoptimized as of now&quot;" />
     <MESSAGE value="&quot;binary addition calculator functioning&quot;" />
     <MESSAGE value="&quot;optimizations made to plus one and binary addition&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;optimizations made to plus one and binary addition&quot;" />
+    <MESSAGE value="&quot;Square Root numbers working properly both binary and linear solution&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Square Root numbers working properly both binary and linear solution&quot;" />
   </component>
 </project>
