@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d493f2fb-fe69-452c-90eb-bc82ff0f411e" name="Changes" comment="&quot;Square Root numbers working properly both binary and linear solution&quot;">
-      <change afterPath="$PROJECT_DIR$/src/main/java/inOrderTraversal.java" afterDir="false" />
+    <list default="true" id="d493f2fb-fe69-452c-90eb-bc82ff0f411e" name="Changes" comment="&quot;started binary in order&quot;">
+      <change afterPath="$PROJECT_DIR$/src/main/java/RGBtoHex.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,9 +59,16 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.RGBtoHex">
     <configuration name="PlusOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PlusOne" />
+      <module name="java-leetcode-algorithms" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RGBtoHex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RGBtoHex" />
       <module name="java-leetcode-algorithms" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -90,6 +97,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RGBtoHex" />
         <item itemvalue="Application.binaryAddition" />
         <item itemvalue="Application.PlusOne" />
         <item itemvalue="Application.mergeSortedArrays" />
@@ -107,7 +115,8 @@
       <updated>1672608457090</updated>
       <workItem from="1672608458163" duration="807000" />
       <workItem from="1672609278320" duration="17526000" />
-      <workItem from="1672687457021" duration="15252000" />
+      <workItem from="1672687457021" duration="15280000" />
+      <workItem from="1672868487107" duration="7522000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;previous algorithms added in&quot;">
       <created>1672608937388</created>
@@ -151,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672697193095</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="&quot;started binary in order&quot;">
+      <created>1672705725839</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1672705725839</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,6 +181,7 @@
     <MESSAGE value="&quot;binary addition calculator functioning&quot;" />
     <MESSAGE value="&quot;optimizations made to plus one and binary addition&quot;" />
     <MESSAGE value="&quot;Square Root numbers working properly both binary and linear solution&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Square Root numbers working properly both binary and linear solution&quot;" />
+    <MESSAGE value="&quot;started binary in order&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;started binary in order&quot;" />
   </component>
 </project>
