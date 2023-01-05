@@ -27,7 +27,6 @@ public class RGBtoHex {
             String base16Hex = (decValue>15) ? decToHexString(decValue/16) : "0";
             returnString.append(base16Hex+base1Hex);
         }
-
         return (returnString.toString());
     }
 
