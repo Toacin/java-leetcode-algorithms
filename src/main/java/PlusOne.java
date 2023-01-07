@@ -8,14 +8,17 @@ import static java.lang.Integer.parseInt;
 public class PlusOne {
     static public int[] plusOne(int[] digits) {
         String digitsString = "";
+
         for (int digit : digits) {
             digitsString += digit;
         }
+
         BigInteger digitsIntLessOne = new BigInteger(digitsString);
         BigInteger one = new BigInteger("1");
         BigInteger digitsInt = digitsIntLessOne.add(one);
         String returnableInt = String.valueOf(digitsInt);
         String[] returableStringArray = returnableInt.split("");
+
         int[] returnableIntArray = new int[returableStringArray.length];
         for (int i=0; i<returableStringArray.length; i++) {
             returnableIntArray[i] = parseInt(returableStringArray[i]);

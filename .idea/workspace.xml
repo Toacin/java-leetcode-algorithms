@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d493f2fb-fe69-452c-90eb-bc82ff0f411e" name="Changes" comment="&quot;Pascal Triangle Complete&quot;">
-      <change afterPath="$PROJECT_DIR$/src/main/java/MajorityElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/MajorityElementTest.java" afterDir="false" />
+    <list default="true" id="d493f2fb-fe69-452c-90eb-bc82ff0f411e" name="Changes" comment="&quot;Majority Element Complete&quot;">
+      <change afterPath="$PROJECT_DIR$/src/main/java/maxIceCreamBars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/maxIceCreamBarsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PlusOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PlusOne.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +50,9 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -83,27 +87,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lengthOfFinalWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lengthOfFinalWord" />
+    <configuration name="maxIceCreamBars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="maxIceCreamBars" />
       <module name="java-leetcode-algorithms" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="mergeSortedArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mergeSortedArrays" />
+    <configuration name="maxIceCreamBarsTest.sortArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-leetcode-algorithms" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="maxIceCreamBarsTest" />
+      <option name="METHOD_NAME" value="sortArray" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RGBtoHex" />
+        <item itemvalue="Application.maxIceCreamBars" />
+        <item itemvalue="JUnit.maxIceCreamBarsTest.sortArray" />
         <item itemvalue="Application.binaryAddition" />
+        <item itemvalue="Application.RGBtoHex" />
         <item itemvalue="Application.PlusOne" />
-        <item itemvalue="Application.mergeSortedArrays" />
-        <item itemvalue="Application.lengthOfFinalWord" />
       </list>
     </recent_temporary>
   </component>
@@ -120,7 +127,9 @@
       <workItem from="1672687457021" duration="15280000" />
       <workItem from="1672868487107" duration="12727000" />
       <workItem from="1672881316698" duration="3000" />
-      <workItem from="1672963005930" duration="5862000" />
+      <workItem from="1672963005930" duration="6132000" />
+      <workItem from="1673026533110" duration="3967000" />
+      <workItem from="1673043890107" duration="7516000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;previous algorithms added in&quot;">
       <created>1672608937388</created>
@@ -192,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672966660251</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="&quot;Majority Element Complete&quot;">
+      <created>1672969675926</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1672969675926</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,6 +225,7 @@
     <MESSAGE value="&quot;started binary in order&quot;" />
     <MESSAGE value="&quot;RGBtoHex Completed&quot;" />
     <MESSAGE value="&quot;Pascal Triangle Complete&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Pascal Triangle Complete&quot;" />
+    <MESSAGE value="&quot;Majority Element Complete&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Majority Element Complete&quot;" />
   </component>
 </project>
