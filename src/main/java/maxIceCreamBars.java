@@ -1,34 +1,82 @@
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.EnumSet;
 import java.util.List;
 
 public class maxIceCreamBars {
+//    public static int maxIceCream(int[] costs, int coins) {
+//        List<Integer> costsList = new ArrayList<Integer>();
+//
+//        for (int priceOfBar: costs) {
+//            costsList.add(priceOfBar);
+//        }
+//
+//        List<Integer> sortedCostsList = sortArray(costsList);
+//
+//        int [] sortedCostsArray = new int[sortedCostsList.size()];
+//        for(int i=0; i<sortedCostsList.size(); i++) {
+//            sortedCostsArray[i] = sortedCostsList.get(i);
+//        }
+//
+//        int barsPurchaseable = 0;
+//        for (int priceOfBar: sortedCostsArray) {
+//            if (priceOfBar<=coins) {
+//                barsPurchaseable++;
+//                coins = coins-priceOfBar;
+//                continue;
+//            } else {
+//                return barsPurchaseable;
+//            }
+//        }
+//
+//        return barsPurchaseable;
+//    }
+
+//    public static int maxIceCream(int[] costs, int coins) {
+//        Arrays.sort(costs);
+//        int [] sortedCostsArray = costs;
+//        int barsPurchaseable = 0;
+//
+//        for (int priceOfBar: sortedCostsArray) {
+//            if (priceOfBar<=coins) {
+//                barsPurchaseable++;
+//                coins = coins-priceOfBar;
+//                continue;
+//            } else {
+//                return barsPurchaseable;
+//            }
+//        }
+//
+//        return barsPurchaseable;
+//    }
+
     public static int maxIceCream(int[] costs, int coins) {
-        List<Integer> costsList = new ArrayList<Integer>();
 
-        for (int priceOfBar: costs) {
-            costsList.add(priceOfBar);
+        // get the maximum cost available
+        int max = costs[0];
+        for (int i = 0; i < costs.length; i++) {
+            max = Math.max(costs[i], max);
+        }
+        // create the bucket array of size of maximum_cost + 1
+        // and keep the frequencies of the cost
+        int[] buckets = new int[max + 1];
+        for (int p : costs) {
+            buckets[p]++;
         }
 
-        List<Integer> sortedCostsList = sortArray(costsList);
+        // keep the track of maximum ice-creams can be bought
+        int ans = 0;
+        for (int i = 0; i < buckets.length; i++) {
+            if (coins < i) {
+                break;
+            }
+            if (buckets[i] > 0) {
 
-        int [] sortedCostsArray = new int[sortedCostsList.size()];
-        for(int i=0; i<sortedCostsList.size(); i++) {
-            sortedCostsArray[i] = sortedCostsList.get(i);
-        }
-
-        int barsPurchaseable = 0;
-        for (int priceOfBar: sortedCostsArray) {
-            if (priceOfBar<=coins) {
-                barsPurchaseable++;
-                coins = coins-priceOfBar;
-                continue;
-            } else {
-                return barsPurchaseable;
+                ans += Math.min(buckets[i], coins/i);
+                coins -= Math.min(coins, i * buckets[i]);
             }
         }
-
-        return barsPurchaseable;
+        return ans;
     }
 
     public static List<Integer> sortArray(List<Integer> unsortedArray) {
@@ -55,11 +103,13 @@ public class maxIceCreamBars {
     }
 
     public static void main(String[] args) {
-        List<Integer> randomLargeArray = new ArrayList<Integer>();
-        for (int i=0; i<200; i++) {
-            int randomNumber = (int) (Math.random()*100);
-            randomLargeArray.add(randomNumber);
-        }
-        System.out.println(sortArray(randomLargeArray));
+//        List<Integer> randomLargeArray = new ArrayList<Integer>();
+//        for (int i=0; i<200; i++) {
+//            int randomNumber = (int) (Math.random()*100);
+//            randomLargeArray.add(randomNumber);
+//        }
+//        System.out.println(sortArray(randomLargeArray));
+
+        System.out.println(Math.min(0, 45/0));
     }
 }
