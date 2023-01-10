@@ -4,42 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d493f2fb-fe69-452c-90eb-bc82ff0f411e" name="Changes" comment="&quot;swap pairs algorithm completed&quot;">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/LinkedList/RemoveDuplicateLinked.java" afterDir="false" />
+    <list default="true" id="d493f2fb-fe69-452c-90eb-bc82ff0f411e" name="Changes" comment="&quot;algorithms more organized&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AddTwoLinkedNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/LinkedList/AddTwoLinkedNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ExcellColumn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Easy/ExcellColumn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MajorityElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Easy/MajorityElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NSWE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CodeWars/NSWE.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PascalTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Easy/PascalTriangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PlusOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Easy/PlusOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RGBtoHex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CodeWars/RGBtoHex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RemoveDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Easy/RemoveDuplicates.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RotateLinkedRight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/LinkedList/RotateLinkedRight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SingleNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Easy/SingleNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SwapNodeInPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/LinkedList/SwapNodeInPairs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TestMerge.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ThreeSumClose.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Easy/ThreeSumClose.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/binaryAddition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Easy/binaryAddition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/binaryAdditionSimplified.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Easy/binaryAdditionSimplified.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/commonPreFix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Easy/commonPreFix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/commonSuffix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Easy/commonSuffix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hundredthPrime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CodeWars/hundredthPrime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/inOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Easy/inOrderTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/insertPosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Easy/insertPosition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lengthOfFinalWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Easy/lengthOfFinalWord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/maxIceCreamBars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Easy/maxIceCreamBars.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mergeSortedArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/LinkedList/mergeSortedArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mergeSortedArrays.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Easy/mergeSortedArrays.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Easy/palindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/removeNthNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/LinkedList/removeNthNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/squareRoote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Easy/squareRoote.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/validParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Easy/validParentheses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MajorityElementTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MajorityElementTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SingleNumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SingleNumberTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/binaryAdditionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/binaryAdditionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/maxIceCreamBarsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/maxIceCreamBarsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LeetCode/LinkedList/RemoveDuplicateLinked.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/LinkedList/RemoveDuplicateLinked.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AddTwoLinkedNumbers$ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AddTwoLinkedNumbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MajorityElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/NSWE.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PascalTriangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PlusOne.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RGBtoHex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RemoveDuplicates.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RotateLinkedRight$ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RotateLinkedRight.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SingleNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TestMerge$HeadNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TestMerge$ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TestMerge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ThreeSumClose.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/binaryAddition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/binaryAdditionSimplified.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/commonPreFix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/commonSuffix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hundredthPrime.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/inOrderTraversal$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/inOrderTraversal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/insertPosition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lengthOfFinalWord.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/maxIceCreamBars.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mergeSortedArrays$ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mergeSortedArrays.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/palindrome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/squareRoote.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/validParentheses.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +91,7 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Toacin Patwary\Documents\UNIVERSITY\JavaProjects\java-leetcode-algorithms\src\main\java\LeetCode\Easy" />
       <recent name="C:\Users\Toacin Patwary\Documents\UNIVERSITY\JavaProjects\java-leetcode-algorithms\src\main\java\LeetCode" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
@@ -165,7 +163,7 @@
       <workItem from="1672963005930" duration="6132000" />
       <workItem from="1673026533110" duration="3967000" />
       <workItem from="1673043890107" duration="15808000" />
-      <workItem from="1673298996967" duration="23963000" />
+      <workItem from="1673298996967" duration="28179000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;previous algorithms added in&quot;">
       <created>1672608937388</created>
@@ -300,7 +298,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673323225303</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="&quot;algorithms more organized&quot;">
+      <created>1673324594467</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1673324594467</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -325,6 +330,7 @@
     <MESSAGE value="&quot;Rotate a Linked List Solved with alternate solution&quot;" />
     <MESSAGE value="&quot;Remove nth node from the end of linked list algorithm solved&quot;" />
     <MESSAGE value="&quot;swap pairs algorithm completed&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;swap pairs algorithm completed&quot;" />
+    <MESSAGE value="&quot;algorithms more organized&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;algorithms more organized&quot;" />
   </component>
 </project>
