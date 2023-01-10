@@ -14,40 +14,44 @@ public class RemoveDuplicateLinked {
 
     public static ListNode deleteDuplicates(ListNode head) {
         ListNode nodeInQuestion = head;
-        ListNode headNodeToReturn = head;
+        ListNode prevValidNode = new ListNode();
+        ListNode nodeToReturn = head;
+        boolean firstNodeBeingChecked = true;
 
-        ListNode prevNode = new ListNode();
-        boolean firstIteration = true;
-        while(nodeInQuestion != null && nodeInQuestion.next != null) {
-            if (nodeInQuestion.next == null) break;
-            ListNode thirdNodeOut = nodeInQuestion.next.next;
+        while (nodeInQuestion !=null && nodeInQuestion.next !=null) {
+            ListNode adjacentNode = nodeInQuestion.next;
 
-            boolean duplicateFound = false;
-            while(nodeInQuestion.val == nodeInQuestion.next.val) {
-                nodeInQuestion.next = thirdNodeOut;
-                thirdNodeOut = (nodeInQuestion.next == null) ? null : nodeInQuestion.next.next;
-                duplicateFound = true;
+            boolean foundDuplicate = false;
+            while (adjacentNode != null && nodeInQuestion.val == adjacentNode.val) {
+                adjacentNode = adjacentNode.next;
+                foundDuplicate = true;
             }
-            if (duplicateFound && firstIteration) {
-                headNodeToReturn = nodeInQuestion.next;
-            } else if (duplicateFound) {
-                prevNode.next = nodeInQuestion.next;
+
+            if (foundDuplicate && firstNodeBeingChecked) {
+                nodeToReturn = adjacentNode;
+                prevValidNode = adjacentNode;
+            } else if (foundDuplicate) {
+                prevValidNode.next = adjacentNode;
+            } else if (firstNodeBeingChecked) {
+                firstNodeBeingChecked = false;
+                prevValidNode = nodeInQuestion;
             } else {
-                prevNode = nodeInQuestion;
+                prevValidNode = nodeInQuestion;
             }
-            nodeInQuestion = nodeInQuestion.next;
-            firstIteration = false;
+
+            nodeInQuestion = adjacentNode;
         }
 
-        return headNodeToReturn;
+
+        return nodeToReturn;
     }
 
     public static void main(String[] args) {
-        ListNode list2Node5 = new ListNode(1);
+        ListNode list2Node5 = new ListNode(2);
 //        ListNode list2Node4 = new ListNode(2, list2Node5);
-//        ListNode list2Node3 = new ListNode(2, list2Node4);
+        ListNode list2Node3 = new ListNode(2, list2Node5);
 //        ListNode list2Node2 = new ListNode(1, list2Node3);
-        ListNode list2Node1 = new ListNode(1, list2Node5);
+        ListNode list2Node1 = new ListNode(1, list2Node3);
 
         ListNode returnedListNode = deleteDuplicates(list2Node1);
         List<Integer> returnedListNodePrettier = new ArrayList<>();

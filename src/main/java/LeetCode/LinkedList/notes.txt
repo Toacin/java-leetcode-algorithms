@@ -1,0 +1,28 @@
+remove duplicate code that didn't work:
+        ListNode nodeInQuestion = head;
+        ListNode headNodeToReturn = head;
+
+        ListNode prevNode = new ListNode();
+        boolean firstIteration = true;
+        while(nodeInQuestion != null && nodeInQuestion.next != null) {
+            if (nodeInQuestion.next == null) break;
+            ListNode thirdNodeOut = nodeInQuestion.next.next;
+
+            boolean duplicateFound = false;
+            while(nodeInQuestion.val == nodeInQuestion.next.val) {
+                nodeInQuestion.next = thirdNodeOut;
+                thirdNodeOut = (nodeInQuestion.next == null) ? null : nodeInQuestion.next.next;
+                duplicateFound = true;
+            }
+            if (duplicateFound && firstIteration) {
+                headNodeToReturn = nodeInQuestion.next;
+            } else if (duplicateFound) {
+                prevNode.next = nodeInQuestion.next;
+            } else {
+                prevNode = nodeInQuestion;
+            }
+            nodeInQuestion = nodeInQuestion.next;
+            firstIteration = false;
+        }
+
+        return headNodeToReturn;

@@ -15,7 +15,6 @@ public class RotateLinkedRight {
             this.val = val;
             this.next = next;
         }
-
     }
 
     public static ListNode rotateRight(ListNode head, int k) {
