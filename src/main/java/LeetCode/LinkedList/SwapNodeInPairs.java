@@ -1,3 +1,5 @@
+package LeetCode.LinkedList;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -16,8 +18,7 @@ public class SwapNodeInPairs {
         ListNode startingPoint = head.next;
 
         ListNode prevPointerToUpdate = new ListNode();
-        while (true) {
-            if (nodeInQuestion == null || nodeInQuestion.next == null) break;
+        while (nodeInQuestion != null && nodeInQuestion.next != null) {
             ListNode adjacentNode = nodeInQuestion.next;
             ListNode outsideNode = nodeInQuestion.next.next;
 

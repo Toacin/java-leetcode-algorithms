@@ -1,3 +1,5 @@
+package LeetCode.Easy;
+
 // determine if number is palindromic (return boolean)
 // my solution:
 public class palindrome {

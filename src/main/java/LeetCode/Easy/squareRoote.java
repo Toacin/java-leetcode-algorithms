@@ -1,3 +1,5 @@
+package LeetCode.Easy;
+
 public class squareRoote {
     static public int mySqrt(int x) {
         long lowPoint = 0;

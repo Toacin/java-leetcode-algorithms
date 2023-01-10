@@ -1,3 +1,5 @@
+package LeetCode.LinkedList;
+
 import org.w3c.dom.NodeList;
 
 public class mergeSortedArrays {

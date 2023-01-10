@@ -1,3 +1,5 @@
+package LeetCode.Easy;
+
 public class ThreeSumClose {
     public int threeSumClosest(int[] nums, int target) {
         int finalSum = -1;

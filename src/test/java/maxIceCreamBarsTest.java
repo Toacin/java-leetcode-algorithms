@@ -1,7 +1,7 @@
+import LeetCode.Easy.maxIceCreamBars;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -35,6 +35,6 @@ class maxIceCreamBarsTest {
 //        int[] costs = {1,3,2,4,1};
 //        int[] sortedCosts = {1, 1, 2, 3, 4};
 //
-//        assertEquals(Arrays.toString(sortedCosts), Arrays.toString(maxIceCreamBars.sortArray(costs)));
+//        assertEquals(Arrays.toString(sortedCosts), Arrays.toString(LeetCode.maxIceCreamBars.sortArray(costs)));
     }
 }

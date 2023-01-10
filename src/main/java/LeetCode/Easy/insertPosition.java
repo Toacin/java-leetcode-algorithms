@@ -1,3 +1,5 @@
+package LeetCode.Easy;
+
 public class insertPosition {
 
     static public int searchInsert(int[] nums, int target) {

@@ -1,3 +1,5 @@
+package LeetCode.Easy;
+
 //find the common prefix in an array of words
 // my solution:
 public class commonPreFix {

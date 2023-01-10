@@ -1,3 +1,5 @@
+package CodeWars;
+
 public class RGBtoHex {
     public static String decToHexString(int decDigit) {
         return switch (decDigit) {

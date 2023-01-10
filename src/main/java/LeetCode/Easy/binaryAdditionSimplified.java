@@ -1,40 +1,33 @@
-import java.math.BigInteger;
+package LeetCode.Easy;
+
 import java.util.ArrayList;
 
-public class binaryAddition {
+public class binaryAdditionSimplified {
     public static String addBinary(String a, String b) {
-        int sizeOfIteration = Math.max(a.length(), b.length());
-
-        ArrayList<String> arrayOfSum = new ArrayList<String>();
+        String finalBinaryString = "";
 
         boolean remainder = false;
-        for (int i=0; i<sizeOfIteration; i++) {
+        for (int i=0; i< Math.max(a.length(), b.length()); i++) {
             char characterFromA = (i<a.length()) ? a.charAt(a.length()-1-i) : '0';
             char characterFromB = (i<b.length()) ? b.charAt(b.length()-1-i) : '0';
 
             if (characterFromA=='0' && characterFromB=='0' && !remainder) {
-                arrayOfSum.add("0");
+                finalBinaryString = "0" + finalBinaryString;
                 remainder=false;
             } else if ((characterFromA=='0' && characterFromB=='0' && remainder) || (characterFromA=='0' && characterFromB=='1' && !remainder) || (characterFromA=='1' && characterFromB=='0' && !remainder)) {
-                arrayOfSum.add("1");
+                finalBinaryString = "1" + finalBinaryString;
                 remainder=false;
             } else if ((characterFromA=='0' && characterFromB=='1' && remainder) || (characterFromA=='1' && characterFromB=='1' && !remainder) || (characterFromA=='1' && characterFromB=='0' && remainder)) {
-                arrayOfSum.add("0");
+                finalBinaryString = "0" + finalBinaryString;
                 remainder=true;
             } else {
-                arrayOfSum.add("1");
+                finalBinaryString = "1" + finalBinaryString;
                 remainder=true;
             }
         }
-        if (remainder) {
-            arrayOfSum.add("1");
-        }
-        StringBuilder finalBinaryString = new StringBuilder();
-        for (String digit: arrayOfSum) {
-            finalBinaryString.insert(0, String.valueOf(digit));
-        }
+        if (remainder) finalBinaryString = "1" + finalBinaryString;
 
-        return finalBinaryString.toString();
+        return finalBinaryString;
     }
 
     public static void main(String[] args) {
@@ -43,7 +36,5 @@ public class binaryAddition {
 
         System.out.println(addBinary(stringA, stringB));
 
-//        BigInteger test = new BigInteger("1.0");
-//        System.out.println(test);
     }
 }

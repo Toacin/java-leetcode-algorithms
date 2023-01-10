@@ -1,4 +1,4 @@
-// find the hundreth prime number
+package CodeWars;// find the hundreth prime number
 // my solution:
 
 public class hundredthPrime {

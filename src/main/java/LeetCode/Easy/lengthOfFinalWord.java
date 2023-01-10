@@ -1,3 +1,5 @@
+package LeetCode.Easy;
+
 public class lengthOfFinalWord {
     static public int lengthOfLastWord(String s) {
         return s.split(" ")[s.split(" ").length-1].length();

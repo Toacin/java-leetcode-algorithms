@@ -1,3 +1,5 @@
+package LeetCode.Easy;
+
 import java.util.HashMap;
 
 public class SingleNumber {
