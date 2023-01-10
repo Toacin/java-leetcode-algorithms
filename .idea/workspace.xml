@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d493f2fb-fe69-452c-90eb-bc82ff0f411e" name="Changes" comment="&quot;Rotate a Linked List Solved with alternate solution&quot;">
-      <change afterPath="$PROJECT_DIR$/src/main/java/removeNthNode.java" afterDir="false" />
+    <list default="true" id="d493f2fb-fe69-452c-90eb-bc82ff0f411e" name="Changes" comment="&quot;Remove nth node from the end of linked list algorithm solved&quot;">
+      <change afterPath="$PROJECT_DIR$/src/main/java/SwapNodeInPairs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/RotateLinkedRight.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RotateLinkedRight.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +128,7 @@
       <workItem from="1672963005930" duration="6132000" />
       <workItem from="1673026533110" duration="3967000" />
       <workItem from="1673043890107" duration="15808000" />
-      <workItem from="1673298996967" duration="19900000" />
+      <workItem from="1673298996967" duration="22588000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;previous algorithms added in&quot;">
       <created>1672608937388</created>
@@ -250,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673318366056</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="&quot;Remove nth node from the end of linked list algorithm solved&quot;">
+      <created>1673320753096</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1673320753096</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,6 +279,7 @@
     <MESSAGE value="&quot;Directional Optimizer Complete&quot;" />
     <MESSAGE value="&quot;Rotate a Linked List Solved&quot;" />
     <MESSAGE value="&quot;Rotate a Linked List Solved with alternate solution&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Rotate a Linked List Solved with alternate solution&quot;" />
+    <MESSAGE value="&quot;Remove nth node from the end of linked list algorithm solved&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Remove nth node from the end of linked list algorithm solved&quot;" />
   </component>
 </project>
