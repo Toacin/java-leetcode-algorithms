@@ -17,7 +17,8 @@ public class RotateLinkedRight {
     }
 
     public static ListNode rotateRight(ListNode head, int k) {
-        if (head==null) return head;
+        if (head==null || head.next==null) return head;
+
         int sizeOfNode = 0;
         ListNode nodeForCount = head;
         while(nodeForCount != null) {
@@ -26,29 +27,48 @@ public class RotateLinkedRight {
         }
         int rotationCount = (k<sizeOfNode) ? k : k%sizeOfNode;
 
-        ListNode unrotatedListNode = head;
+//        actual logic for rotation
+        ListNode currentHead = head;
         for(int i=0; i<rotationCount; i++) {
-            ListNode newlyRotatedNode = new ListNode();
-            ListNode prevNode = newlyRotatedNode;
-            while (unrotatedListNode.next != null) {
-                ListNode subsequentNode = new ListNode(unrotatedListNode.val);
-                prevNode.next = subsequentNode;
-                prevNode = subsequentNode;
-                unrotatedListNode = unrotatedListNode.next;
+            ListNode secondToLastNode = currentHead;
+            while(secondToLastNode.next.next != null) {
+                secondToLastNode = secondToLastNode.next;
             }
-            newlyRotatedNode.val = unrotatedListNode.val;
-            unrotatedListNode = newlyRotatedNode;
+            secondToLastNode.next.next = currentHead;
+            currentHead = secondToLastNode.next;
+            secondToLastNode.next = null;
         }
 
-        return unrotatedListNode;
+        return currentHead;
+
+
+//        alternate logic for rotation:
+
+//        ListNode unrotatedListNode = head;
+//        for(int i=0; i<rotationCount; i++) {
+//            ListNode newlyRotatedNode = new ListNode();
+//            ListNode prevNode = newlyRotatedNode;
+//            while (unrotatedListNode.next != null) {
+//                ListNode subsequentNode = new ListNode(unrotatedListNode.val);
+//                prevNode.next = subsequentNode;
+//                prevNode = subsequentNode;
+//                unrotatedListNode = unrotatedListNode.next;
+//            }
+//            newlyRotatedNode.val = unrotatedListNode.val;
+//            unrotatedListNode = newlyRotatedNode;
+//        }
+//
+//        return unrotatedListNode;
     }
 
     public static void main(String[] args) {
-        ListNode list2Node3 = new ListNode(3);
+        ListNode list2Node5 = new ListNode(5);
+        ListNode list2Node4 = new ListNode(4, list2Node5);
+        ListNode list2Node3 = new ListNode(3, list2Node4);
         ListNode list2Node2 = new ListNode(2, list2Node3);
         ListNode list2Node1 = new ListNode(1, list2Node2);
 
-        ListNode returnedListNode = rotateRight(list2Node1, 7);
+        ListNode returnedListNode = rotateRight(list2Node1, 8);
         List<Integer> returnedListNodePrettier = new ArrayList<>();
 
         while(returnedListNode != null) {
