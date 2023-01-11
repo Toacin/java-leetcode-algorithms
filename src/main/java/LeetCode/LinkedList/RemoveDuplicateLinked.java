@@ -48,10 +48,10 @@ public class RemoveDuplicateLinked {
 
     public static void main(String[] args) {
         ListNode list2Node5 = new ListNode(2);
-//        ListNode list2Node4 = new ListNode(2, list2Node5);
-        ListNode list2Node3 = new ListNode(2, list2Node5);
-//        ListNode list2Node2 = new ListNode(1, list2Node3);
-        ListNode list2Node1 = new ListNode(1, list2Node3);
+        ListNode list2Node4 = new ListNode(2, list2Node5);
+        ListNode list2Node3 = new ListNode(2, list2Node4);
+        ListNode list2Node2 = new ListNode(1, list2Node3);
+        ListNode list2Node1 = new ListNode(1, list2Node2);
 
         ListNode returnedListNode = deleteDuplicates(list2Node1);
         List<Integer> returnedListNodePrettier = new ArrayList<>();

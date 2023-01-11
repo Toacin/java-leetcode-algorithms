@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d493f2fb-fe69-452c-90eb-bc82ff0f411e" name="Changes" comment="&quot;remove duplicate Linked almost solved. quitting for now&quot;">
-      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/LinkedList/notes.txt" afterDir="false" />
+    <list default="true" id="d493f2fb-fe69-452c-90eb-bc82ff0f411e" name="Changes" comment="&quot;remove duplicate Linked solved&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LeetCode/LinkedList/PartitionList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/LinkedList/PartitionList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/LeetCode/LinkedList/RemoveDuplicateLinked.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/LinkedList/RemoveDuplicateLinked.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LeetCode/LinkedList/RotateLinkedRight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/LinkedList/RotateLinkedRight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/MajorityElementTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/MajorityElementTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SingleNumberTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SingleNumberTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/binaryAdditionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/binaryAdditionTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/maxIceCreamBarsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/maxIceCreamBarsTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +139,7 @@
       <workItem from="1673026533110" duration="3967000" />
       <workItem from="1673043890107" duration="15808000" />
       <workItem from="1673298996967" duration="28323000" />
-      <workItem from="1673371681626" duration="8829000" />
+      <workItem from="1673371681626" duration="12749000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;previous algorithms added in&quot;">
       <created>1672608937388</created>
@@ -285,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673328971124</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="&quot;remove duplicate Linked solved&quot;">
+      <created>1673391895520</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1673391895520</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,6 +322,7 @@
     <MESSAGE value="&quot;swap pairs algorithm completed&quot;" />
     <MESSAGE value="&quot;algorithms more organized&quot;" />
     <MESSAGE value="&quot;remove duplicate Linked almost solved. quitting for now&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;remove duplicate Linked almost solved. quitting for now&quot;" />
+    <MESSAGE value="&quot;remove duplicate Linked solved&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;remove duplicate Linked solved&quot;" />
   </component>
 </project>
