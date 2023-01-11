@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d493f2fb-fe69-452c-90eb-bc82ff0f411e" name="Changes" comment="&quot;remove duplicate Linked solved&quot;">
+    <list default="true" id="d493f2fb-fe69-452c-90eb-bc82ff0f411e" name="Changes" comment="&quot;Partition a linked list solved&quot;">
+      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Medium/LongestSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LeetCode/Medium/LongestSubstringTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LeetCode/LinkedList/PartitionList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/LinkedList/PartitionList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LeetCode/LinkedList/RemoveDuplicateLinked.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/LinkedList/RemoveDuplicateLinked.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MajorityElementTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/MajorityElementTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SingleNumberTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SingleNumberTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/binaryAdditionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/binaryAdditionTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/maxIceCreamBarsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/maxIceCreamBarsTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -70,6 +66,7 @@
       <recent name="C:\Users\Toacin Patwary\Documents\UNIVERSITY\JavaProjects\java-leetcode-algorithms\src\main\java\LeetCode" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="LeetCode.Medium" />
       <recent name="" />
     </key>
   </component>
@@ -139,7 +136,7 @@
       <workItem from="1673026533110" duration="3967000" />
       <workItem from="1673043890107" duration="15808000" />
       <workItem from="1673298996967" duration="28323000" />
-      <workItem from="1673371681626" duration="12749000" />
+      <workItem from="1673371681626" duration="15785000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;previous algorithms added in&quot;">
       <created>1672608937388</created>
@@ -295,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673391895520</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="&quot;Partition a linked list solved&quot;">
+      <created>1673396017919</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1673396017919</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,6 +327,7 @@
     <MESSAGE value="&quot;algorithms more organized&quot;" />
     <MESSAGE value="&quot;remove duplicate Linked almost solved. quitting for now&quot;" />
     <MESSAGE value="&quot;remove duplicate Linked solved&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;remove duplicate Linked solved&quot;" />
+    <MESSAGE value="&quot;Partition a linked list solved&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Partition a linked list solved&quot;" />
   </component>
 </project>
