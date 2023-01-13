@@ -43,9 +43,29 @@ public class MyAtoi {
                 return 0;
             }
         }
+        String unparsedNumberStringWith0 = unparsedNumber.toString();
 
-        String unparsedNumberString = unparsedNumber.toString();
+        StringBuilder unparsedNumberStringBuilder = new StringBuilder();
+        boolean leadingZeros = true;
+        for (int i=0; i<unparsedNumberStringWith0.length(); i++) {
+            if (unparsedNumberStringWith0.charAt(i) == '-' || unparsedNumberStringWith0.charAt(i) == '+') {
+                unparsedNumberStringBuilder.append(unparsedNumberStringWith0.charAt(i));
+                continue;
+            } else if (unparsedNumberStringWith0.charAt(i) == '0' && leadingZeros) {
+                continue;
+            }
+            unparsedNumberStringBuilder.append(unparsedNumberStringWith0.charAt(i));
+            leadingZeros = false;
+        }
+
+        String unparsedNumberString = unparsedNumberStringBuilder.toString();
         System.out.println(unparsedNumberString);
+
+
+        if (unparsedNumberString.length()>11) {
+            if (unparsedNumberString.charAt(0)=='-') return -2147483648;
+            else return 2147483647;
+        }
 
         long finalLong = 0;
         long base10Mult = 1;
@@ -71,13 +91,13 @@ public class MyAtoi {
         System.out.println(finalLong);
         int finalInt = 0;
         if (finalLong>2147483647) finalInt = 2147483647;
-        else if (-(Math.pow(2,31)) > finalLong) finalInt = (int) -(Math.pow(2,31));
+        else if (-(Math.pow(2,31)) > finalLong) finalInt = -2147483648;
         else finalInt = (int) finalLong;
 
         return finalInt;
     }
 
     public static void main(String[] args) {
-        System.out.println(myAtoi("9223372036854775808"));
+        System.out.println(myAtoi("-2147483647"));
     }
 }

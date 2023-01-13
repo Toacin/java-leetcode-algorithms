@@ -8,6 +8,6 @@ class MyAtoiTest {
 
     @Test
     void myAtoi() {
-        assertEquals(1, MyAtoi.myAtoi("00000-42a1234"));
+        assertEquals(-2147483647, MyAtoi.myAtoi("-2147483647"));
     }
 }
