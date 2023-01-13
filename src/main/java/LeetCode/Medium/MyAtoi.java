@@ -32,7 +32,7 @@ public class MyAtoi {
                             s.charAt(i+1)== '9'
                     ))
             ) {
-                if (numberStarted && (characterInQuestion=='-' || characterInQuestion=='+')) return 0;
+                if (numberStarted && (characterInQuestion=='-' || characterInQuestion=='+')) break;
                 if (numberStarted && characterInQuestion==' ') break;
                 if (characterInQuestion == ' ') continue;
                 numberStarted = true;
@@ -59,8 +59,6 @@ public class MyAtoi {
         }
 
         String unparsedNumberString = unparsedNumberStringBuilder.toString();
-        System.out.println(unparsedNumberString);
-
 
         if (unparsedNumberString.length()>11) {
             if (unparsedNumberString.charAt(0)=='-') return -2147483648;
@@ -88,16 +86,11 @@ public class MyAtoi {
             base10Mult *= 10;
         }
 
-        System.out.println(finalLong);
         int finalInt = 0;
         if (finalLong>2147483647) finalInt = 2147483647;
         else if (-(Math.pow(2,31)) > finalLong) finalInt = -2147483648;
         else finalInt = (int) finalLong;
 
         return finalInt;
-    }
-
-    public static void main(String[] args) {
-        System.out.println(myAtoi("-2147483647"));
     }
 }
