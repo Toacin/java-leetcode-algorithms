@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d493f2fb-fe69-452c-90eb-bc82ff0f411e" name="Changes" comment="&quot;myAtoi simulator somewhat solved 2nd attempt&quot;">
+    <list default="true" id="d493f2fb-fe69-452c-90eb-bc82ff0f411e" name="Changes" comment="&quot;myAtoi simulator solution solved&quot;">
+      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Medium/LongestPalindromicSubstring.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LeetCode/Medium/MyAtoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Medium/MyAtoi.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -137,7 +137,8 @@
       <workItem from="1673298996967" duration="28323000" />
       <workItem from="1673371681626" duration="16304000" />
       <workItem from="1673565023575" duration="10169000" />
-      <workItem from="1673583355674" duration="2828000" />
+      <workItem from="1673583355674" duration="3017000" />
+      <workItem from="1673635244062" duration="3496000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;previous algorithms added in&quot;">
       <created>1672608937388</created>
@@ -321,7 +322,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673585590498</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="&quot;myAtoi simulator solution solved&quot;">
+      <created>1673586197453</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1673586197453</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -353,6 +361,7 @@
     <MESSAGE value="&quot;Length of Longest Substring Solved&quot;" />
     <MESSAGE value="&quot;myAtoi simulator somewhat solved&quot;" />
     <MESSAGE value="&quot;myAtoi simulator somewhat solved 2nd attempt&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;myAtoi simulator somewhat solved 2nd attempt&quot;" />
+    <MESSAGE value="&quot;myAtoi simulator solution solved&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;myAtoi simulator solution solved&quot;" />
   </component>
 </project>
