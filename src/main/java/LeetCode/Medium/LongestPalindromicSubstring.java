@@ -5,17 +5,17 @@ public class LongestPalindromicSubstring {
         if (s.length() == 0) return "";
         String longestPalindromicString = "";
         for (int i = 0; i < s.length(); i++) {
-            String normalStringBuilder = "";
-            String reverseStringBuilder = "";
+            StringBuilder normalStringBuilder = new StringBuilder();
             if (s.length()-i<longestPalindromicString.length()) return longestPalindromicString;
-            normalStringBuilder = normalStringBuilder+s.charAt(i);
-            reverseStringBuilder = s.charAt(i) + reverseStringBuilder;
+            normalStringBuilder.append(s.charAt(i));
             for (int j = i+1; j < s.length(); j++) {
-                normalStringBuilder = normalStringBuilder + s.charAt(j);
-                reverseStringBuilder = s.charAt(j) + reverseStringBuilder;
+                normalStringBuilder.append(s.charAt(j));
+                StringBuilder reverseStringBuilder = new StringBuilder(normalStringBuilder.toString());
+                reverseStringBuilder.reverse();
 
-                if (normalStringBuilder.equals(reverseStringBuilder) && normalStringBuilder.length()>longestPalindromicString.length()) {
-                    longestPalindromicString = normalStringBuilder;
+
+                if (normalStringBuilder.toString().equals(reverseStringBuilder.toString()) && normalStringBuilder.length()>longestPalindromicString.length()) {
+                    longestPalindromicString = normalStringBuilder.toString();
                 }
             }
         }
