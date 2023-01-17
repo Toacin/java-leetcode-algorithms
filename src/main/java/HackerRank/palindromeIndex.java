@@ -3,8 +3,7 @@ package HackerRank;
 public class palindromeIndex {
     public static int palindromeIndex(String s) {
         // Write your code here
-
-        if (s.length() == 0 || s == null) return -1;
+        if (s==null || s.length()==0) return -1;
 
         // initialize a palindrome where
         int indexOfPallindrome = -1;
@@ -16,19 +15,23 @@ public class palindromeIndex {
 
 
         for (int i=0; i<s.length(); i++) {
-            String unreversedString;
-            if (i==0) {
-                unreversedString = s.substring(1);
-            } else if (i==s.length()-1) {
-                unreversedString = s.substring(0, s.length()-1);
-            } else {
-                unreversedString = s.substring(0,i)+s.substring(i+1);
+            StringBuilder unreversedString = new StringBuilder();
+//            if (i==0) {
+//                unreversedString = s.substring(1);
+//            } else if (i==s.length()-1) {
+//                unreversedString = s.substring(0, s.length()-1);
+//            } else {
+//                unreversedString = s.substring(0,i)+s.substring(i+1);
+//            }
+            for (int j=0; j<s.length(); j++) {
+                if (j==i) continue;
+                unreversedString.append(s.charAt(j));
             }
 
             StringBuilder reversedString = new StringBuilder(unreversedString);
             reversedString.reverse();
 
-            if (unreversedString.equals(reversedString.toString())) return i;
+            if (unreversedString.toString().equals(reversedString.toString())) return i;
         }
 
         return indexOfPallindrome;
