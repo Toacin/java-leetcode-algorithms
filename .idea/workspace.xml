@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d493f2fb-fe69-452c-90eb-bc82ff0f411e" name="Changes" comment="&quot;super digit using recursion has been solved&quot;">
-      <change afterPath="$PROJECT_DIR$/src/main/java/HackerRank/HackerRankLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HackerRank/newYearsChaos.java" afterDir="false" />
+    <list default="true" id="d493f2fb-fe69-452c-90eb-bc82ff0f411e" name="Changes" comment="&quot;merge linked list without creating new list functional&quot;">
+      <change afterPath="$PROJECT_DIR$/src/main/java/HackerRank/validParenthesis.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HackerRank/newYearsChaos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HackerRank/newYearsChaos.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +142,7 @@
       <workItem from="1673583355674" duration="3017000" />
       <workItem from="1673635244062" duration="11770000" />
       <workItem from="1673898120949" duration="17804000" />
-      <workItem from="1673985059947" duration="17291000" />
+      <workItem from="1673985059947" duration="19216000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;previous algorithms added in&quot;">
       <created>1672608937388</created>
@@ -382,7 +382,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674001377044</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="&quot;merge linked list without creating new list functional&quot;">
+      <created>1674009756360</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1674009756360</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -390,7 +397,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="&quot;RGBtoHex Completed&quot;" />
     <MESSAGE value="&quot;Pascal Triangle Complete&quot;" />
     <MESSAGE value="&quot;Majority Element Complete&quot;" />
     <MESSAGE value="&quot;max ice cream bars functioning small scale, but timing out for larger arrays and coins&quot;" />
@@ -415,6 +421,7 @@
     <MESSAGE value="&quot;superdigit in progress&quot;" />
     <MESSAGE value="&quot;superdigit solved using long&quot;" />
     <MESSAGE value="&quot;super digit using recursion has been solved&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;super digit using recursion has been solved&quot;" />
+    <MESSAGE value="&quot;merge linked list without creating new list functional&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;merge linked list without creating new list functional&quot;" />
   </component>
 </project>

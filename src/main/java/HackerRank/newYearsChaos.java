@@ -25,10 +25,10 @@ public class newYearsChaos {
 
                 if (q.get(i)>i+1 && !bribeOccurred) {
                     int currentPersonBribe = q.get(i)-(i+1);
-//                    if (currentPersonBribe>2) {
-//                        System.out.println("Too chaotic");
-//                        return;
-//                    }
+                    if (currentPersonBribe>2) {
+                        System.out.println("Too chaotic");
+                        return;
+                    }
                     totalBribes += currentPersonBribe;
                     q.remove(i);
                     bribeOccurred = true;
@@ -40,11 +40,11 @@ public class newYearsChaos {
 
     public static void main(String[] args) {
         List<Integer> testList = new ArrayList<>();
-        testList.add(5);
         testList.add(2);
+        testList.add(4);
         testList.add(1);
         testList.add(3);
-        testList.add(4);
+        testList.add(5);
 
         minimumBribes(testList);
     }
