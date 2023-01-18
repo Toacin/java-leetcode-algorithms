@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d493f2fb-fe69-452c-90eb-bc82ff0f411e" name="Changes" comment="&quot;palindrome index mostly solved, and caesar's cypher completely solved&quot;">
-      <change afterPath="$PROJECT_DIR$/src/test/java/HackerRank/palindromeIndexTest.java" afterDir="false" />
+    <list default="true" id="d493f2fb-fe69-452c-90eb-bc82ff0f411e" name="Changes" comment="&quot;superdigit in progress&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HackerRank/palindromeIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HackerRank/palindromeIndex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HackerRank/superDigit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HackerRank/superDigit.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +141,7 @@
       <workItem from="1673583355674" duration="3017000" />
       <workItem from="1673635244062" duration="11770000" />
       <workItem from="1673898120949" duration="17804000" />
-      <workItem from="1673985059947" duration="10322000" />
+      <workItem from="1673985059947" duration="11412000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;previous algorithms added in&quot;">
       <created>1672608937388</created>
@@ -361,7 +360,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673992906316</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="&quot;superdigit in progress&quot;">
+      <created>1673999770337</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1673999770337</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -369,7 +375,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="&quot;optimizations made to plus one and binary addition&quot;" />
     <MESSAGE value="&quot;Square Root numbers working properly both binary and linear solution&quot;" />
     <MESSAGE value="&quot;started binary in order&quot;" />
     <MESSAGE value="&quot;RGBtoHex Completed&quot;" />
@@ -394,6 +399,7 @@
     <MESSAGE value="&quot;longest palindromic string builder solution works but not scalable, times out&quot;" />
     <MESSAGE value="&quot;hackerRanks Easy solved day1 compete&quot;" />
     <MESSAGE value="&quot;palindrome index mostly solved, and caesar's cypher completely solved&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;palindrome index mostly solved, and caesar's cypher completely solved&quot;" />
+    <MESSAGE value="&quot;superdigit in progress&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;superdigit in progress&quot;" />
   </component>
 </project>
