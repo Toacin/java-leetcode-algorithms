@@ -5,11 +5,11 @@ public class productOfArray {
         int[] returnArray = new int[nums.length];
         int product = 1;
         boolean zeroExists = false;
+
         for (int num: nums) {
             if (num == 0) {
                 if (zeroExists) {
-                    int[] zeroArray = new int[nums.length];
-                    return zeroArray;
+                    return returnArray;
                 }
                 zeroExists = true;
             } else {
