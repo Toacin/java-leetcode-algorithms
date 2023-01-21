@@ -4,18 +4,6 @@ public class HackerRankLinkedList {
     public static class SinglyLinkedListNode {
         int data;
         SinglyLinkedListNode next;
-
-        public SinglyLinkedListNode() {
-        }
-
-        public SinglyLinkedListNode(int data) {
-            this.data = data;
-        }
-
-        public SinglyLinkedListNode(int data, SinglyLinkedListNode next) {
-            this.data = data;
-            this.next = next;
-        }
     }
 
     static SinglyLinkedListNode mergeLists(SinglyLinkedListNode head1, SinglyLinkedListNode head2) {
