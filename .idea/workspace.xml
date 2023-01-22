@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d493f2fb-fe69-452c-90eb-bc82ff0f411e" name="Changes" comment="&quot;max sub working but very inefficient&quot;">
-      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/LinkedList/reverseLinkedList.java" afterDir="false" />
+    <list default="true" id="d493f2fb-fe69-452c-90eb-bc82ff0f411e" name="Changes" comment="&quot;reverse linked list functioning&quot;">
+      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/LinkedList/alternateLinkedLIst.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -146,7 +146,7 @@
       <workItem from="1674245506798" duration="1637000" />
       <workItem from="1674258963258" duration="1053000" />
       <workItem from="1674268412299" duration="3606000" />
-      <workItem from="1674428615327" duration="337000" />
+      <workItem from="1674428615327" duration="1168000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;previous algorithms added in&quot;">
       <created>1672608937388</created>
@@ -421,7 +421,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674273188810</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="&quot;reverse linked list functioning&quot;">
+      <created>1674428967348</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1674428967348</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -429,7 +436,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="&quot;Directional Optimizer Complete&quot;" />
     <MESSAGE value="&quot;Rotate a Linked List Solved&quot;" />
     <MESSAGE value="&quot;Rotate a Linked List Solved with alternate solution&quot;" />
     <MESSAGE value="&quot;Remove nth node from the end of linked list algorithm solved&quot;" />
@@ -454,6 +460,7 @@
     <MESSAGE value="&quot;buy and sell stocks solved&quot;" />
     <MESSAGE value="&quot;product of array except self solved. Efficiency really strong&quot;" />
     <MESSAGE value="&quot;max sub working but very inefficient&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;max sub working but very inefficient&quot;" />
+    <MESSAGE value="&quot;reverse linked list functioning&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;reverse linked list functioning&quot;" />
   </component>
 </project>
