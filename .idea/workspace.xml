@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d493f2fb-fe69-452c-90eb-bc82ff0f411e" name="Changes" comment="&quot;reverse linked list functioning&quot;">
-      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/LinkedList/alternateLinkedLIst.java" afterDir="false" />
+    <list default="true" id="d493f2fb-fe69-452c-90eb-bc82ff0f411e" name="Changes" comment="&quot;reverse linked list alternate solution is function. Not an optimal solution but I just wanted to test if the idea works. Previous solution is much better&quot;">
+      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Medium/AddTwoNums.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LeetCode/Medium/AddTwoNumsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -35,27 +36,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "C:/Users/Toacin Patwary/Documents/UNIVERSITY/JavaProjects/java-leetcode-algorithms",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -65,12 +67,12 @@
       <recent name="C:\Users\Toacin Patwary\Documents\UNIVERSITY\JavaProjects\java-leetcode-algorithms\src\main\java\LeetCode" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="HackerRank" />
       <recent name="LeetCode.Medium" />
+      <recent name="HackerRank" />
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.binaryAddition">
+  <component name="RunManager">
     <configuration name="RotateLinkedRight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LeetCode.LinkedList.RotateLinkedRight" />
       <module name="java-leetcode-algorithms" />
@@ -146,7 +148,10 @@
       <workItem from="1674245506798" duration="1637000" />
       <workItem from="1674258963258" duration="1053000" />
       <workItem from="1674268412299" duration="3606000" />
-      <workItem from="1674428615327" duration="1168000" />
+      <workItem from="1674428615327" duration="1969000" />
+      <workItem from="1674436198195" duration="601000" />
+      <workItem from="1674510982210" duration="15000" />
+      <workItem from="1674854269666" duration="9303000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;previous algorithms added in&quot;">
       <created>1672608937388</created>
@@ -428,7 +433,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674428967348</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="&quot;reverse linked list alternate solution is function. Not an optimal solution but I just wanted to test if the idea works. Previous solution is much better&quot;">
+      <created>1674429894176</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1674429894176</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -436,7 +448,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="&quot;Rotate a Linked List Solved&quot;" />
     <MESSAGE value="&quot;Rotate a Linked List Solved with alternate solution&quot;" />
     <MESSAGE value="&quot;Remove nth node from the end of linked list algorithm solved&quot;" />
     <MESSAGE value="&quot;swap pairs algorithm completed&quot;" />
@@ -461,6 +472,7 @@
     <MESSAGE value="&quot;product of array except self solved. Efficiency really strong&quot;" />
     <MESSAGE value="&quot;max sub working but very inefficient&quot;" />
     <MESSAGE value="&quot;reverse linked list functioning&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;reverse linked list functioning&quot;" />
+    <MESSAGE value="&quot;reverse linked list alternate solution is function. Not an optimal solution but I just wanted to test if the idea works. Previous solution is much better&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;reverse linked list alternate solution is function. Not an optimal solution but I just wanted to test if the idea works. Previous solution is much better&quot;" />
   </component>
 </project>
