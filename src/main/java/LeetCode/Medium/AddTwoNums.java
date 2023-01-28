@@ -69,21 +69,8 @@ public class AddTwoNums {
     public static int getSum(int a, int b) {
         StringBuilder aBinaryString = new StringBuilder("00");
         StringBuilder bBinaryString = new StringBuilder("00");
-        boolean bothNegative = false;
-        boolean aIsNegative = false;
-        boolean bIsNegative = false;
-        if (a<0 || b<0) {
-            if (a<0 && b<0) {
-                bothNegative = true;
-                a *= -1;
-                b *= -1;
-            } else {
-                aIsNegative = (a<0);
-                bIsNegative = (b<0);
-            }
-        }
-
-
+        boolean aIsNegative = (a<0);
+        boolean bIsNegative = (b<0);
         if (aIsNegative) a *= -1;
         if (bIsNegative) b *= -1;
         convertToBinary(a, aBinaryString);
@@ -102,19 +89,17 @@ public class AddTwoNums {
             for (int i=1; i<12; i++) {
                 finalSumTwos.append(finalBinSum.charAt(i));
             }
-            System.out.println(finalSumTwos);
             finalBinSum = twosCompliment(finalSumTwos);
             finalBinSum = "0" + finalBinSum.substring(1);
-            System.out.println(finalBinSum);
         }
 
         int finalSum = convertToDecimal(finalBinSum);
-        if (bothNegative || finalSumNeg) finalSum *= -1;
+        if (finalSumNeg) finalSum *= -1;
 
         return finalSum;
     }
 
     public static void main(String[] args) {
-        System.out.println(getSum(-4, 0));
+        System.out.println(getSum(-4, -4));
     }
 }
