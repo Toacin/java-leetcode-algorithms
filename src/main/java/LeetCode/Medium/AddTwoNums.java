@@ -90,7 +90,6 @@ public class AddTwoNums {
                 finalSumTwos.append(finalBinSum.charAt(i));
             }
             finalBinSum = twosCompliment(finalSumTwos);
-            finalBinSum = "0" + finalBinSum.substring(1);
         }
 
         int finalSum = convertToDecimal(finalBinSum);
