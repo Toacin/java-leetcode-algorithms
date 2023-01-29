@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d493f2fb-fe69-452c-90eb-bc82ff0f411e" name="Changes" comment="binary addition optimized">
-      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Easy/countOnesBinaryArray.java" afterDir="false" />
+    <list default="true" id="d493f2fb-fe69-452c-90eb-bc82ff0f411e" name="Changes" comment="number of one bits solved, but extremely unoptimized">
+      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/JavaScript/Easy/TwoSum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Medium/PalindromicSubstring.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LeetCode/Medium/AddTwoNums.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Medium/AddTwoNums.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +19,7 @@
       <list>
         <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -151,7 +152,9 @@
       <workItem from="1674428615327" duration="1969000" />
       <workItem from="1674436198195" duration="601000" />
       <workItem from="1674510982210" duration="15000" />
-      <workItem from="1674854269666" duration="11947000" />
+      <workItem from="1674854269666" duration="12770000" />
+      <workItem from="1674869606904" duration="41000" />
+      <workItem from="1674938144829" duration="3351000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;previous algorithms added in&quot;">
       <created>1672608937388</created>
@@ -454,7 +457,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674864311552</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="number of one bits solved, but extremely unoptimized">
+      <created>1674868133523</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1674868133523</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -462,7 +472,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="&quot;swap pairs algorithm completed&quot;" />
     <MESSAGE value="&quot;algorithms more organized&quot;" />
     <MESSAGE value="&quot;remove duplicate Linked almost solved. quitting for now&quot;" />
     <MESSAGE value="&quot;remove duplicate Linked solved&quot;" />
@@ -487,6 +496,7 @@
     <MESSAGE value="&quot;reverse linked list alternate solution is function. Not an optimal solution but I just wanted to test if the idea works. Previous solution is much better&quot;" />
     <MESSAGE value="addition using binary conversion completed" />
     <MESSAGE value="binary addition optimized" />
-    <option name="LAST_COMMIT_MESSAGE" value="binary addition optimized" />
+    <MESSAGE value="number of one bits solved, but extremely unoptimized" />
+    <option name="LAST_COMMIT_MESSAGE" value="number of one bits solved, but extremely unoptimized" />
   </component>
 </project>
