@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d493f2fb-fe69-452c-90eb-bc82ff0f411e" name="Changes" comment="number of one bits solved, but extremely unoptimized">
-      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/JavaScript/Easy/TwoSum.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Medium/PalindromicSubstring.java" afterDir="false" />
+    <list default="true" id="d493f2fb-fe69-452c-90eb-bc82ff0f411e" name="Changes" comment="javascript solution for two nlogn solution attempted but unsolved for now">
+      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/JavaScript/Easy/ValidParenthesis.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/JavaScript/Easy/isAnagram.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Medium/SpiralMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Medium/SpiralMatrixExpanded.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LeetCode/Medium/PalindromicSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Medium/PalindromicSubstring.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +21,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="Class" />
         <option value="JavaScript File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -154,7 +157,10 @@
       <workItem from="1674510982210" duration="15000" />
       <workItem from="1674854269666" duration="12770000" />
       <workItem from="1674869606904" duration="41000" />
-      <workItem from="1674938144829" duration="3351000" />
+      <workItem from="1674938144829" duration="3630000" />
+      <workItem from="1674952409857" duration="809000" />
+      <workItem from="1674960661264" duration="29000" />
+      <workItem from="1675035146568" duration="6197000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;previous algorithms added in&quot;">
       <created>1672608937388</created>
@@ -464,7 +470,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674868133523</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="javascript solution for two nlogn solution attempted but unsolved for now">
+      <created>1674950934425</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1674950934425</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -472,7 +485,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="&quot;algorithms more organized&quot;" />
     <MESSAGE value="&quot;remove duplicate Linked almost solved. quitting for now&quot;" />
     <MESSAGE value="&quot;remove duplicate Linked solved&quot;" />
     <MESSAGE value="&quot;Partition a linked list solved&quot;" />
@@ -497,6 +509,7 @@
     <MESSAGE value="addition using binary conversion completed" />
     <MESSAGE value="binary addition optimized" />
     <MESSAGE value="number of one bits solved, but extremely unoptimized" />
-    <option name="LAST_COMMIT_MESSAGE" value="number of one bits solved, but extremely unoptimized" />
+    <MESSAGE value="javascript solution for two nlogn solution attempted but unsolved for now" />
+    <option name="LAST_COMMIT_MESSAGE" value="javascript solution for two nlogn solution attempted but unsolved for now" />
   </component>
 </project>
