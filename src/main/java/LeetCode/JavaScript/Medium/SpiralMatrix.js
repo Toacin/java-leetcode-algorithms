@@ -20,20 +20,18 @@ var spiralOrder = function(matrix) {
                 (direction === "right") ? xCoord++ : xCoord--;
             }
             totalMoves -= horizontalMoves;
-            (direction === "right") ? xCoord-- : xCoord++;
             horizontalMoves--;
-            (direction === "right") ? yCoord++ : yCoord--;
         } else {
             for (let i=0; i<verticalMoves; i++) {
                 spiralArray.push(matrix[yCoord][xCoord]);
                 (direction === "down") ? yCoord++ : yCoord--;
             }
             totalMoves -= verticalMoves;
-            (direction === "down") ? yCoord-- : yCoord++;
             verticalMoves--;
-            (direction === "down") ? xCoord-- : xCoord++;
         }
 
+        (direction === "right" || direction === "up") ? yCoord++ : yCoord--;
+        (direction === "right" || direction === "down") ? xCoord-- : xCoord++;
         directionIndex = (directionIndex===3) ? 0 : directionIndex+1;
     }
 
