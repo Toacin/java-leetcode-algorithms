@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d493f2fb-fe69-452c-90eb-bc82ff0f411e" name="Changes" comment="TreeNode Traversal completed">
-      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Easy/floodFill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Easy/floodFillRefresh.java" afterDir="false" />
+    <list default="true" id="d493f2fb-fe69-452c-90eb-bc82ff0f411e" name="Changes" comment="FloodFill solution almost solved, working out bugs">
+      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Easy/LongestConstructablePalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Easy/RansomNote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Easy/validAnagram.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -163,14 +164,7 @@
       <workItem from="1675208632009" duration="49000" />
       <workItem from="1675375817917" duration="3284000" />
       <workItem from="1675391841814" duration="5270000" />
-      <workItem from="1675451786496" duration="4773000" />
-    </task>
-    <task id="LOCAL-00001" summary="&quot;previous algorithms added in&quot;">
-      <created>1672608937388</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1672608937388</updated>
+      <workItem from="1675451786496" duration="11585000" />
     </task>
     <task id="LOCAL-00002" summary="&quot;added maven framework support&quot;">
       <created>1672609102889</created>
@@ -508,7 +502,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675393719561</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="FloodFill solution almost solved, working out bugs">
+      <created>1675468431475</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1675468431475</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -516,7 +517,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="&quot;myAtoi simulator somewhat solved&quot;" />
     <MESSAGE value="&quot;myAtoi simulator somewhat solved 2nd attempt&quot;" />
     <MESSAGE value="&quot;myAtoi simulator solution solved&quot;" />
     <MESSAGE value="&quot;Time Limit Exceeded but all the test cases passed&quot;" />
@@ -541,6 +541,7 @@
     <MESSAGE value="Spiral Matrix solved in javascript (both expanded and condensed version)" />
     <MESSAGE value="Binary search in array solved" />
     <MESSAGE value="TreeNode Traversal completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="TreeNode Traversal completed" />
+    <MESSAGE value="FloodFill solution almost solved, working out bugs" />
+    <option name="LAST_COMMIT_MESSAGE" value="FloodFill solution almost solved, working out bugs" />
   </component>
 </project>
