@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d493f2fb-fe69-452c-90eb-bc82ff0f411e" name="Changes" comment="Maximum depth complete">
-      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/BinaryTree/SymmetricTree.java" afterDir="false" />
+    <list default="true" id="d493f2fb-fe69-452c-90eb-bc82ff0f411e" name="Changes" comment="symmetric tree checker complete">
+      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/BinaryTree/heightBalancedTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -172,14 +172,7 @@
       <workItem from="1675977182955" duration="4142000" />
       <workItem from="1676150929933" duration="43000" />
       <workItem from="1676414702966" duration="3465000" />
-      <workItem from="1676486070348" duration="9713000" />
-    </task>
-    <task id="LOCAL-00009" summary="&quot;RGBtoHex Completed&quot;">
-      <created>1672881286186</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1672881286186</updated>
+      <workItem from="1676486070348" duration="12142000" />
     </task>
     <task id="LOCAL-00010" summary="&quot;Pascal Triangle Complete&quot;">
       <created>1672966660251</created>
@@ -517,7 +510,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676498985885</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="symmetric tree checker complete">
+      <created>1676500237952</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1676500237952</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -525,7 +525,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="&quot;superdigit solved using long&quot;" />
     <MESSAGE value="&quot;super digit using recursion has been solved&quot;" />
     <MESSAGE value="&quot;merge linked list without creating new list functional&quot;" />
     <MESSAGE value="&quot;1/17 algorithms finished for the day&quot;" />
@@ -550,6 +549,7 @@
     <MESSAGE value="delete duplicates complete" />
     <MESSAGE value="same tree completed first try" />
     <MESSAGE value="Maximum depth complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="Maximum depth complete" />
+    <MESSAGE value="symmetric tree checker complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="symmetric tree checker complete" />
   </component>
 </project>
