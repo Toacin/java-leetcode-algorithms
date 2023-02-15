@@ -9,7 +9,7 @@ public class floodFillRefresh {
         return floodFillRecurr(image, sr, sc, color, visitedIndex);
     }
 
-    public static int[][] floodFillRecurr(int[][] image, int sr, int sc, int color, HashSet visitedIndex) {
+    public static int[][] floodFillRecurr(int[][] image, int sr, int sc, int color, HashSet<String> visitedIndex) {
         int tempPixel = image[sr][sc];
         image[sr][sc] = color;
         visitedIndex.add(sr+","+sc);
