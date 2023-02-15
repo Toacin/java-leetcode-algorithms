@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d493f2fb-fe69-452c-90eb-bc82ff0f411e" name="Changes" comment="linked list palindrome checker success first attempt">
-      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/LinkedList/removeDuplicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/LinkedList/reverseLinkedList2.java" afterDir="false" />
+    <list default="true" id="d493f2fb-fe69-452c-90eb-bc82ff0f411e" name="Changes" comment="delete duplicates complete">
+      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/BinaryTree/sameTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -173,14 +172,7 @@
       <workItem from="1675977182955" duration="4142000" />
       <workItem from="1676150929933" duration="43000" />
       <workItem from="1676414702966" duration="3465000" />
-      <workItem from="1676486070348" duration="6205000" />
-    </task>
-    <task id="LOCAL-00006" summary="&quot;Square Root numbers working properly both binary and linear solution&quot;">
-      <created>1672697193095</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1672697193095</updated>
+      <workItem from="1676486070348" duration="7341000" />
     </task>
     <task id="LOCAL-00007" summary="&quot;started binary in order&quot;">
       <created>1672705725839</created>
@@ -518,7 +510,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676486505934</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="delete duplicates complete">
+      <created>1676496720049</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1676496720049</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -526,7 +525,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="&quot;hackerRanks Easy solved day1 compete&quot;" />
     <MESSAGE value="&quot;palindrome index mostly solved, and caesar's cypher completely solved&quot;" />
     <MESSAGE value="&quot;superdigit in progress&quot;" />
     <MESSAGE value="&quot;superdigit solved using long&quot;" />
@@ -551,6 +549,7 @@
     <MESSAGE value="Flood Fill solved in flood fill refresh file" />
     <MESSAGE value="Level 8 javascript review with peer" />
     <MESSAGE value="linked list palindrome checker success first attempt" />
-    <option name="LAST_COMMIT_MESSAGE" value="linked list palindrome checker success first attempt" />
+    <MESSAGE value="delete duplicates complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete duplicates complete" />
   </component>
 </project>
