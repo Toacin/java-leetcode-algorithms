@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d493f2fb-fe69-452c-90eb-bc82ff0f411e" name="Changes" comment="delete duplicates complete">
-      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/BinaryTree/sameTree.java" afterDir="false" />
+    <list default="true" id="d493f2fb-fe69-452c-90eb-bc82ff0f411e" name="Changes" comment="same tree completed first try">
+      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/BinaryTree/MaximumDepth.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -172,14 +172,7 @@
       <workItem from="1675977182955" duration="4142000" />
       <workItem from="1676150929933" duration="43000" />
       <workItem from="1676414702966" duration="3465000" />
-      <workItem from="1676486070348" duration="7341000" />
-    </task>
-    <task id="LOCAL-00007" summary="&quot;started binary in order&quot;">
-      <created>1672705725839</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1672705725839</updated>
+      <workItem from="1676486070348" duration="8459000" />
     </task>
     <task id="LOCAL-00008" summary="&quot;RGBtoHex Completed&quot;">
       <created>1672876071675</created>
@@ -517,7 +510,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676496720049</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="same tree completed first try">
+      <created>1676497826706</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1676497826706</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -525,7 +525,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="&quot;palindrome index mostly solved, and caesar's cypher completely solved&quot;" />
     <MESSAGE value="&quot;superdigit in progress&quot;" />
     <MESSAGE value="&quot;superdigit solved using long&quot;" />
     <MESSAGE value="&quot;super digit using recursion has been solved&quot;" />
@@ -550,6 +549,7 @@
     <MESSAGE value="Level 8 javascript review with peer" />
     <MESSAGE value="linked list palindrome checker success first attempt" />
     <MESSAGE value="delete duplicates complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete duplicates complete" />
+    <MESSAGE value="same tree completed first try" />
+    <option name="LAST_COMMIT_MESSAGE" value="same tree completed first try" />
   </component>
 </project>
