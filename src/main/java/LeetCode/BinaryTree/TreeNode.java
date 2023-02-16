@@ -2,8 +2,8 @@ package LeetCode.BinaryTree;
 
 public class TreeNode {
     int val;
-    TreeNode left;
-    TreeNode right;
+    MaximumDepth.TreeNode left;
+    MaximumDepth.TreeNode right;
     TreeNode() {}
     TreeNode(int val) { this.val = val; }
     TreeNode(int val, MaximumDepth.TreeNode left, MaximumDepth.TreeNode right) {
