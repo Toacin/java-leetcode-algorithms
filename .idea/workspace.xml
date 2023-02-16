@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d493f2fb-fe69-452c-90eb-bc82ff0f411e" name="Changes" comment="symmetric tree checker complete">
-      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/BinaryTree/heightBalancedTree.java" afterDir="false" />
+    <list default="true" id="d493f2fb-fe69-452c-90eb-bc82ff0f411e" name="Changes" comment="balanced tree height balanced complete">
+      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/BinaryTree/DiameterBinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LeetCode/BinaryTree/heightBalancedTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/BinaryTree/heightBalancedTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,14 +173,7 @@
       <workItem from="1675977182955" duration="4142000" />
       <workItem from="1676150929933" duration="43000" />
       <workItem from="1676414702966" duration="3465000" />
-      <workItem from="1676486070348" duration="12142000" />
-    </task>
-    <task id="LOCAL-00010" summary="&quot;Pascal Triangle Complete&quot;">
-      <created>1672966660251</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1672966660251</updated>
+      <workItem from="1676486070348" duration="15437000" />
     </task>
     <task id="LOCAL-00011" summary="&quot;Majority Element Complete&quot;">
       <created>1672969675926</created>
@@ -517,7 +511,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676500237952</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="balanced tree height balanced complete">
+      <created>1676502838460</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1676502838460</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -525,7 +526,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="&quot;super digit using recursion has been solved&quot;" />
     <MESSAGE value="&quot;merge linked list without creating new list functional&quot;" />
     <MESSAGE value="&quot;1/17 algorithms finished for the day&quot;" />
     <MESSAGE value="&quot;buy and sell stocks solved&quot;" />
@@ -550,6 +550,7 @@
     <MESSAGE value="same tree completed first try" />
     <MESSAGE value="Maximum depth complete" />
     <MESSAGE value="symmetric tree checker complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="symmetric tree checker complete" />
+    <MESSAGE value="balanced tree height balanced complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="balanced tree height balanced complete" />
   </component>
 </project>

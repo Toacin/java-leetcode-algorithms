@@ -24,14 +24,7 @@ public class heightBalancedTree {
     }
 
     public boolean isBalanced(TreeNode root) {
-        if (root==null) return true;
-        MaxDepth leftDepth = new MaxDepth();
-        MaxDepth rightDepth = new MaxDepth();
-
-        boolean leftCheck = depthChecker(root.left, leftDepth);
-        boolean rightCheck = depthChecker(root.right, rightDepth);
-
-        return ((leftDepth.val==rightDepth.val || leftDepth.val==rightDepth.val+1 || leftDepth.val==rightDepth.val-1) && (leftCheck) && (rightCheck));
+        return depthChecker(root, new MaxDepth());
     }
 
     public boolean depthChecker(TreeNode node, MaxDepth depth) {
