@@ -14,7 +14,7 @@ public class MaximumDepth {
         }
     }
 
-    public class Max {
+    public static class Max {
         int val;
         Max() {}
         Max(int val) {
