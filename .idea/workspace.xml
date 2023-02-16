@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d493f2fb-fe69-452c-90eb-bc82ff0f411e" name="Changes" comment="diameter of binary tree complete">
-      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/BinaryTree/LevelOrderTraversal.java" afterDir="false" />
+    <list default="true" id="d493f2fb-fe69-452c-90eb-bc82ff0f411e" name="Changes" comment="level order traversal complete">
+      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/BinaryTree/MinDepth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/BinaryTree/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LeetCode/BinaryTree/DiameterBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/BinaryTree/DiameterBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LeetCode/BinaryTree/LevelOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/BinaryTree/LevelOrderTraversal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,14 +175,7 @@
       <workItem from="1675977182955" duration="4142000" />
       <workItem from="1676150929933" duration="43000" />
       <workItem from="1676414702966" duration="3465000" />
-      <workItem from="1676486070348" duration="16606000" />
-    </task>
-    <task id="LOCAL-00012" summary="&quot;max ice cream bars functioning small scale, but timing out for larger arrays and coins&quot;">
-      <created>1673052267856</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1673052267856</updated>
+      <workItem from="1676486070348" duration="18544000" />
     </task>
     <task id="LOCAL-00013" summary="&quot;max ice creams solved. Triple sum function for small cases, but not larger cases&quot;">
       <created>1673061237651</created>
@@ -516,7 +513,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676507436918</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="level order traversal complete">
+      <created>1676508566115</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1676508566115</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -524,7 +528,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="&quot;1/17 algorithms finished for the day&quot;" />
     <MESSAGE value="&quot;buy and sell stocks solved&quot;" />
     <MESSAGE value="&quot;product of array except self solved. Efficiency really strong&quot;" />
     <MESSAGE value="&quot;max sub working but very inefficient&quot;" />
@@ -549,6 +552,7 @@
     <MESSAGE value="symmetric tree checker complete" />
     <MESSAGE value="balanced tree height balanced complete" />
     <MESSAGE value="diameter of binary tree complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="diameter of binary tree complete" />
+    <MESSAGE value="level order traversal complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="level order traversal complete" />
   </component>
 </project>

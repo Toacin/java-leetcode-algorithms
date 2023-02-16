@@ -33,14 +33,14 @@ public class LevelOrderTraversal {
     public void hashmapValueAdder(TreeNode node, int prevDepth, HashMap<Integer, List<Integer>> valuesAtLevel) {
         if (node == null) return;
         int currentDepth = prevDepth+1;
-        if (valuesAtLevel.get(currentDepth) == null) {
+        List<Integer> listAtCurrDepth = valuesAtLevel.get(currentDepth);
+        if (listAtCurrDepth == null) {
             List<Integer> newList = new ArrayList<>();
             newList.add(node.val);
             valuesAtLevel.put(currentDepth, newList);
         } else {
-            List<Integer> prevList = valuesAtLevel.get(currentDepth);
-            prevList.add(node.val);
-            valuesAtLevel.put(prevDepth+1, prevList);
+            listAtCurrDepth.add(node.val);
+            valuesAtLevel.put(prevDepth+1, listAtCurrDepth);
         }
 
         hashmapValueAdder(node.left, currentDepth, valuesAtLevel);

@@ -14,14 +14,13 @@ public class DiameterBinaryTree {
         }
     }
 
-    public class DepthCounter {
+    public static class DepthCounter {
         int val;
         DepthCounter() {}
         DepthCounter(int val) {
             this.val = val;
         }
     }
-
     public int maxDist = 0;
 
     public int diameterOfBinaryTree(TreeNode root) {
