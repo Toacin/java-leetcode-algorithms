@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d493f2fb-fe69-452c-90eb-bc82ff0f411e" name="Changes" comment="level order traversal complete">
-      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/BinaryTree/MinDepth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/BinaryTree/TreeNode.java" afterDir="false" />
+    <list default="true" id="d493f2fb-fe69-452c-90eb-bc82ff0f411e" name="Changes" comment="Binary Tree Minimum Depth Complete">
+      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/BinaryTree/pathSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LeetCode/BinaryTree/DiameterBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/BinaryTree/DiameterBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LeetCode/BinaryTree/LevelOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/BinaryTree/LevelOrderTraversal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +72,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.binaryAddition">
     <configuration name="RotateLinkedRight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LeetCode.LinkedList.RotateLinkedRight" />
       <module name="java-leetcode-algorithms" />
@@ -175,28 +172,8 @@
       <workItem from="1675977182955" duration="4142000" />
       <workItem from="1676150929933" duration="43000" />
       <workItem from="1676414702966" duration="3465000" />
-      <workItem from="1676486070348" duration="18544000" />
-    </task>
-    <task id="LOCAL-00013" summary="&quot;max ice creams solved. Triple sum function for small cases, but not larger cases&quot;">
-      <created>1673061237651</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1673061237651</updated>
-    </task>
-    <task id="LOCAL-00014" summary="&quot;Directional Optimizer Complete&quot;">
-      <created>1673302693556</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1673302693556</updated>
-    </task>
-    <task id="LOCAL-00015" summary="&quot;Rotate a Linked List Solved&quot;">
-      <created>1673314659425</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1673314659425</updated>
+      <workItem from="1676486070348" duration="18798000" />
+      <workItem from="1676600239657" duration="1450000" />
     </task>
     <task id="LOCAL-00016" summary="&quot;Rotate a Linked List Solved&quot;">
       <created>1673316335113</created>
@@ -520,7 +497,28 @@
       <option name="project" value="LOCAL" />
       <updated>1676508566115</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="Binary Tree Minimum Depth Complete">
+      <created>1676510460181</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1676510460181</updated>
+    </task>
+    <task id="LOCAL-00063" summary="Binary Tree Minimum Depth Complete">
+      <created>1676510482375</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1676510482375</updated>
+    </task>
+    <task id="LOCAL-00064" summary="Binary Tree Minimum Depth Complete">
+      <created>1676510591486</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1676510591486</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -528,7 +526,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="&quot;buy and sell stocks solved&quot;" />
     <MESSAGE value="&quot;product of array except self solved. Efficiency really strong&quot;" />
     <MESSAGE value="&quot;max sub working but very inefficient&quot;" />
     <MESSAGE value="&quot;reverse linked list functioning&quot;" />
@@ -553,6 +550,7 @@
     <MESSAGE value="balanced tree height balanced complete" />
     <MESSAGE value="diameter of binary tree complete" />
     <MESSAGE value="level order traversal complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="level order traversal complete" />
+    <MESSAGE value="Binary Tree Minimum Depth Complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Binary Tree Minimum Depth Complete" />
   </component>
 </project>
