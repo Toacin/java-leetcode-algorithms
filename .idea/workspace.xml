@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d493f2fb-fe69-452c-90eb-bc82ff0f411e" name="Changes" comment="intersection in linked list down to 6ms, beats 60%; I am happy with this solution">
-      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Easy/HappyNumber.java" afterDir="false" />
+    <list default="true" id="d493f2fb-fe69-452c-90eb-bc82ff0f411e" name="Changes" comment="happy number solved">
+      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Easy/UglyNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -174,14 +174,7 @@
       <workItem from="1676414702966" duration="3465000" />
       <workItem from="1676486070348" duration="18798000" />
       <workItem from="1676600239657" duration="3749000" />
-      <workItem from="1676761616867" duration="1211000" />
-    </task>
-    <task id="LOCAL-00019" summary="&quot;swap pairs algorithm completed&quot;">
-      <created>1673323225303</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1673323225303</updated>
+      <workItem from="1676761616867" duration="2379000" />
     </task>
     <task id="LOCAL-00020" summary="&quot;algorithms more organized&quot;">
       <created>1673324594467</created>
@@ -519,7 +512,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676603385913</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="happy number solved">
+      <created>1676764528075</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1676764528075</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -527,7 +527,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="&quot;reverse linked list alternate solution is function. Not an optimal solution but I just wanted to test if the idea works. Previous solution is much better&quot;" />
     <MESSAGE value="addition using binary conversion completed" />
     <MESSAGE value="binary addition optimized" />
     <MESSAGE value="number of one bits solved, but extremely unoptimized" />
@@ -552,6 +551,7 @@
     <MESSAGE value="path sum complete binary tree" />
     <MESSAGE value="solution of intersection optimized works but it does not allow list modification" />
     <MESSAGE value="intersection in linked list down to 6ms, beats 60%; I am happy with this solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="intersection in linked list down to 6ms, beats 60%; I am happy with this solution" />
+    <MESSAGE value="happy number solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="happy number solved" />
   </component>
 </project>
