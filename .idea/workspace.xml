@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d493f2fb-fe69-452c-90eb-bc82ff0f411e" name="Changes" comment="ugly number solved">
-      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Medium/nthUglyNumber.java" afterDir="false" />
+    <list default="true" id="d493f2fb-fe69-452c-90eb-bc82ff0f411e" name="Changes" comment="nth ugly number solved">
+      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Easy/IsomorphicString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Easy/IsomorphicStringCorrect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/LinkedList/removeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -174,14 +176,7 @@
       <workItem from="1676414702966" duration="3465000" />
       <workItem from="1676486070348" duration="18798000" />
       <workItem from="1676600239657" duration="3749000" />
-      <workItem from="1676761616867" duration="4635000" />
-    </task>
-    <task id="LOCAL-00021" summary="&quot;remove duplicate Linked almost solved. quitting for now&quot;">
-      <created>1673328971124</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1673328971124</updated>
+      <workItem from="1676761616867" duration="9143000" />
     </task>
     <task id="LOCAL-00022" summary="&quot;remove duplicate Linked solved&quot;">
       <created>1673391895520</created>
@@ -519,7 +514,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676765725346</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="nth ugly number solved">
+      <created>1676767999817</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1676767999817</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -527,7 +529,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="binary addition optimized" />
     <MESSAGE value="number of one bits solved, but extremely unoptimized" />
     <MESSAGE value="javascript solution for two nlogn solution attempted but unsolved for now" />
     <MESSAGE value="Spiral Matrix solved" />
@@ -552,6 +553,7 @@
     <MESSAGE value="intersection in linked list down to 6ms, beats 60%; I am happy with this solution" />
     <MESSAGE value="happy number solved" />
     <MESSAGE value="ugly number solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="ugly number solved" />
+    <MESSAGE value="nth ugly number solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="nth ugly number solved" />
   </component>
 </project>
