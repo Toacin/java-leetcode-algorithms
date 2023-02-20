@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d493f2fb-fe69-452c-90eb-bc82ff0f411e" name="Changes" comment="isomorphic string more optimized solution found">
-      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Easy/ContainsDuplicate.java" afterDir="false" />
+    <list default="true" id="d493f2fb-fe69-452c-90eb-bc82ff0f411e" name="Changes" comment="contains duplicate 2 solved">
+      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Easy/SummaryRangeClss.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -175,14 +175,7 @@
       <workItem from="1676486070348" duration="18798000" />
       <workItem from="1676600239657" duration="3749000" />
       <workItem from="1676761616867" duration="9980000" />
-      <workItem from="1676858526917" duration="878000" />
-    </task>
-    <task id="LOCAL-00024" summary="&quot;Length of Longest Substring Solved&quot;">
-      <created>1673398889666</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1673398889666</updated>
+      <workItem from="1676858526917" duration="3411000" />
     </task>
     <task id="LOCAL-00025" summary="&quot;myAtoi simulator somewhat solved&quot;">
       <created>1673582808930</created>
@@ -520,7 +513,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676773317127</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="contains duplicate 2 solved">
+      <created>1676859524848</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1676859524849</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -528,7 +528,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Spiral Matrix solved" />
     <MESSAGE value="Spiral Matrix solved in javascript (both expanded and condensed version)" />
     <MESSAGE value="Binary search in array solved" />
     <MESSAGE value="TreeNode Traversal completed" />
@@ -553,6 +552,7 @@
     <MESSAGE value="nth ugly number solved" />
     <MESSAGE value="isomorphic string solved, although not very optimal" />
     <MESSAGE value="isomorphic string more optimized solution found" />
-    <option name="LAST_COMMIT_MESSAGE" value="isomorphic string more optimized solution found" />
+    <MESSAGE value="contains duplicate 2 solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="contains duplicate 2 solved" />
   </component>
 </project>
