@@ -11,13 +11,15 @@ public class SummaryRangeClss {
         for (int i=0; i<nums.length; i++) {
             int startingNum = nums[i];
             int referenceIndex = i+1;
-            Integer finishingNum = null;
+            int finishingNum=0;
+            boolean finishFound = false;
             while ((referenceIndex<nums.length) && (nums[referenceIndex-1]+1==nums[referenceIndex])) {
                 finishingNum = nums[referenceIndex];
                 referenceIndex++;
+                finishFound = true;
             }
 
-            if (finishingNum == null) returnList.add(String.valueOf(startingNum));
+            if (!finishFound) returnList.add(""+startingNum);
             else returnList.add(startingNum+"->"+finishingNum);
 
             i=referenceIndex-1;

@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d493f2fb-fe69-452c-90eb-bc82ff0f411e" name="Changes" comment="contains duplicate 2 solved">
-      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Easy/SummaryRangeClss.java" afterDir="false" />
+    <list default="true" id="d493f2fb-fe69-452c-90eb-bc82ff0f411e" name="Changes" comment="summaryRanges solved">
+      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/BinaryTree/BinaryTreePaths.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LeetCode/Easy/SummaryRangeClss.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Easy/SummaryRangeClss.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,14 +176,7 @@
       <workItem from="1676486070348" duration="18798000" />
       <workItem from="1676600239657" duration="3749000" />
       <workItem from="1676761616867" duration="9980000" />
-      <workItem from="1676858526917" duration="3411000" />
-    </task>
-    <task id="LOCAL-00025" summary="&quot;myAtoi simulator somewhat solved&quot;">
-      <created>1673582808930</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1673582808930</updated>
+      <workItem from="1676858526917" duration="5747000" />
     </task>
     <task id="LOCAL-00026" summary="&quot;myAtoi simulator somewhat solved 2nd attempt&quot;">
       <created>1673585590498</created>
@@ -520,7 +514,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676859524849</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="summaryRanges solved">
+      <created>1676864238044</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1676864238044</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -528,7 +529,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Spiral Matrix solved in javascript (both expanded and condensed version)" />
     <MESSAGE value="Binary search in array solved" />
     <MESSAGE value="TreeNode Traversal completed" />
     <MESSAGE value="FloodFill solution almost solved, working out bugs" />
@@ -553,6 +553,7 @@
     <MESSAGE value="isomorphic string solved, although not very optimal" />
     <MESSAGE value="isomorphic string more optimized solution found" />
     <MESSAGE value="contains duplicate 2 solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="contains duplicate 2 solved" />
+    <MESSAGE value="summaryRanges solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="summaryRanges solved" />
   </component>
 </project>
