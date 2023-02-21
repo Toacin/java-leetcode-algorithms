@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d493f2fb-fe69-452c-90eb-bc82ff0f411e" name="Changes" comment="summaryRanges solved">
-      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/BinaryTree/BinaryTreePaths.java" afterDir="false" />
+    <list default="true" id="d493f2fb-fe69-452c-90eb-bc82ff0f411e" name="Changes" comment="binary tree path logger complete">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Easy/addDigits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Easy/backspaceCompare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Easy/vowelReverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Medium/LongestSubstring2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LeetCode/Easy/SummaryRangeClss.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Easy/SummaryRangeClss.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,28 +40,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Toacin Patwary/Documents/UNIVERSITY/JavaProjects/java-leetcode-algorithms&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "C:/Users/Toacin Patwary/Documents/UNIVERSITY/JavaProjects/java-leetcode-algorithms",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "advanced.settings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -176,14 +179,11 @@
       <workItem from="1676486070348" duration="18798000" />
       <workItem from="1676600239657" duration="3749000" />
       <workItem from="1676761616867" duration="9980000" />
-      <workItem from="1676858526917" duration="5747000" />
-    </task>
-    <task id="LOCAL-00026" summary="&quot;myAtoi simulator somewhat solved 2nd attempt&quot;">
-      <created>1673585590498</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1673585590498</updated>
+      <workItem from="1676858526917" duration="7891000" />
+      <workItem from="1676926879159" duration="5420000" />
+      <workItem from="1676937558583" duration="117000" />
+      <workItem from="1676937682550" duration="1264000" />
+      <workItem from="1676995409133" duration="2783000" />
     </task>
     <task id="LOCAL-00027" summary="&quot;myAtoi simulator solution solved&quot;">
       <created>1673586197453</created>
@@ -521,7 +521,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676864238044</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="binary tree path logger complete">
+      <created>1676866700081</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1676866700081</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -529,7 +536,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Binary search in array solved" />
     <MESSAGE value="TreeNode Traversal completed" />
     <MESSAGE value="FloodFill solution almost solved, working out bugs" />
     <MESSAGE value="Longest Constructable Palindrome solved. Very good solution" />
@@ -554,6 +560,7 @@
     <MESSAGE value="isomorphic string more optimized solution found" />
     <MESSAGE value="contains duplicate 2 solved" />
     <MESSAGE value="summaryRanges solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="summaryRanges solved" />
+    <MESSAGE value="binary tree path logger complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="binary tree path logger complete" />
   </component>
 </project>
