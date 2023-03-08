@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d493f2fb-fe69-452c-90eb-bc82ff0f411e" name="Changes" comment="array intersection 2 complete">
-      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/BinaryTree/leftLeafSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Easy2/SubSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Easy2/assignCookies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Easy2/findTheDifference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Easy2/guessNum.java" afterDir="false" />
+    <list default="true" id="d493f2fb-fe69-452c-90eb-bc82ff0f411e" name="Changes" comment="assignCookies completed">
+      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Easy2/repeatedSubString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/JavaScript/test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LeetCode/Easy2/PerfectSquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Easy2/PerfectSquare.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +18,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="JavaScript File" />
         <option value="Class" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -41,28 +37,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Toacin Patwary/Documents/UNIVERSITY/JavaProjects/java-leetcode-algorithms&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "C:/Users/Toacin Patwary/Documents/UNIVERSITY/Repositories/anthony-photography",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "advanced.settings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -190,14 +186,11 @@
       <workItem from="1677086336411" duration="4524000" />
       <workItem from="1677110975681" duration="186000" />
       <workItem from="1677115406284" duration="2760000" />
-      <workItem from="1677278167021" duration="757000" />
-    </task>
-    <task id="LOCAL-00029" summary="&quot;longest palindromic string builder solution works but not scalable, times out&quot;">
-      <created>1673657367957</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1673657367957</updated>
+      <workItem from="1677278167021" duration="3298000" />
+      <workItem from="1677356884803" duration="788000" />
+      <workItem from="1677622938975" duration="2668000" />
+      <workItem from="1677801493269" duration="757000" />
+      <workItem from="1677805128850" duration="816000" />
     </task>
     <task id="LOCAL-00030" summary="&quot;hackerRanks Easy solved day1 compete&quot;">
       <created>1673907544502</created>
@@ -535,7 +528,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677005015098</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="assignCookies completed">
+      <created>1677278937670</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1677278937670</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -543,7 +543,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Longest Constructable Palindrome solved. Very good solution" />
     <MESSAGE value="Flood Fill solved in flood fill refresh file" />
     <MESSAGE value="Level 8 javascript review with peer" />
     <MESSAGE value="linked list palindrome checker success first attempt" />
@@ -568,6 +567,7 @@
     <MESSAGE value="binary tree path logger complete" />
     <MESSAGE value="vowel reverse completed" />
     <MESSAGE value="array intersection 2 complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="array intersection 2 complete" />
+    <MESSAGE value="assignCookies completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="assignCookies completed" />
   </component>
 </project>
