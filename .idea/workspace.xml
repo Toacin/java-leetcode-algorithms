@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d493f2fb-fe69-452c-90eb-bc82ff0f411e" name="Changes" comment="fibonacci sequence complete">
-      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Easy2/Date.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Easy2/PerfectNum.java" afterDir="false" />
+    <list default="true" id="d493f2fb-fe69-452c-90eb-bc82ff0f411e" name="Changes" comment="getMiddle code wars complete">
+      <change afterPath="$PROJECT_DIR$/src/main/java/CodeWars/Javascript/filterList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LeetCode/Easy2/FibSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Easy2/FibSequence.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +17,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="JavaScript File" />
         <option value="Class" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -74,7 +72,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.binaryAddition">
     <configuration name="RotateLinkedRight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LeetCode.LinkedList.RotateLinkedRight" />
       <module name="java-leetcode-algorithms" />
@@ -199,13 +197,8 @@
       <workItem from="1679354552102" duration="2867000" />
       <workItem from="1679416745946" duration="4000" />
       <workItem from="1679423430843" duration="606000" />
-    </task>
-    <task id="LOCAL-00031" summary="&quot;palindrome index mostly solved, and caesar's cypher completely solved&quot;">
-      <created>1673992906316</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1673992906316</updated>
+      <workItem from="1679428284752" duration="555000" />
+      <workItem from="1679512903711" duration="2529000" />
     </task>
     <task id="LOCAL-00032" summary="&quot;superdigit in progress&quot;">
       <created>1673999770337</created>
@@ -543,7 +536,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678242219897</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="getMiddle code wars complete">
+      <created>1679428360600</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1679428360601</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -551,7 +551,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Level 8 javascript review with peer" />
     <MESSAGE value="linked list palindrome checker success first attempt" />
     <MESSAGE value="delete duplicates complete" />
     <MESSAGE value="same tree completed first try" />
@@ -576,6 +575,7 @@
     <MESSAGE value="array intersection 2 complete" />
     <MESSAGE value="assignCookies completed" />
     <MESSAGE value="fibonacci sequence complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="fibonacci sequence complete" />
+    <MESSAGE value="getMiddle code wars complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="getMiddle code wars complete" />
   </component>
 </project>
