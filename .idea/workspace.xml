@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d493f2fb-fe69-452c-90eb-bc82ff0f411e" name="Changes" comment="getMiddle code wars complete">
-      <change afterPath="$PROJECT_DIR$/src/main/java/CodeWars/Javascript/filterList.js" afterDir="false" />
+    <list default="true" id="d493f2fb-fe69-452c-90eb-bc82ff0f411e" name="Changes" comment="filter function is working">
+      <change afterPath="$PROJECT_DIR$/src/main/java/CodeWars/Javascript/isograms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CodeWars/isograms.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +18,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="Class" />
         <option value="JavaScript File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -198,14 +199,8 @@
       <workItem from="1679416745946" duration="4000" />
       <workItem from="1679423430843" duration="606000" />
       <workItem from="1679428284752" duration="555000" />
-      <workItem from="1679512903711" duration="2529000" />
-    </task>
-    <task id="LOCAL-00032" summary="&quot;superdigit in progress&quot;">
-      <created>1673999770337</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1673999770337</updated>
+      <workItem from="1679512903711" duration="2547000" />
+      <workItem from="1679599034942" duration="1410000" />
     </task>
     <task id="LOCAL-00033" summary="&quot;superdigit solved using long&quot;">
       <created>1674000758987</created>
@@ -543,7 +538,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679428360601</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="filter function is working">
+      <created>1679516166604</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1679516166604</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -551,7 +553,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="linked list palindrome checker success first attempt" />
     <MESSAGE value="delete duplicates complete" />
     <MESSAGE value="same tree completed first try" />
     <MESSAGE value="Maximum depth complete" />
@@ -576,6 +577,7 @@
     <MESSAGE value="assignCookies completed" />
     <MESSAGE value="fibonacci sequence complete" />
     <MESSAGE value="getMiddle code wars complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="getMiddle code wars complete" />
+    <MESSAGE value="filter function is working" />
+    <option name="LAST_COMMIT_MESSAGE" value="filter function is working" />
   </component>
 </project>
