@@ -5,15 +5,17 @@ import java.util.List;
 
 public class FibSequence {
     public int fib(int n) {
-        List<Integer> arrayList = new ArrayList<>();
+        List<Integer> sequenceArr = new ArrayList<>();
 
-        arrayList.add(0);
-        arrayList.add(1);
+        sequenceArr.add(0);
+        sequenceArr.add(1);
 
-        for (int i=2; i<=n; i++) {
-            arrayList.add(arrayList.get(i-1)+arrayList.get(i-2));
+        for (int i=2; i <= n; i++) {
+            int prevPrevNumber = sequenceArr.get(i-2);
+            int previousNumber = sequenceArr.get(i-1);
+            sequenceArr.add(previousNumber+prevPrevNumber);
         }
 
-        return arrayList.get(n);
+        return sequenceArr.get(n);
     }
 }

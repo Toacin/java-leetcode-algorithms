@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d493f2fb-fe69-452c-90eb-bc82ff0f411e" name="Changes" comment="filter function is working">
-      <change afterPath="$PROJECT_DIR$/src/main/java/CodeWars/Javascript/isograms.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/CodeWars/isograms.java" afterDir="false" />
+    <list default="true" id="d493f2fb-fe69-452c-90eb-bc82ff0f411e" name="Changes" comment="isogram solved on codewars">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LeetCode/Easy2/FibSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Easy2/FibSequence.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,14 +199,9 @@
       <workItem from="1679423430843" duration="606000" />
       <workItem from="1679428284752" duration="555000" />
       <workItem from="1679512903711" duration="2547000" />
-      <workItem from="1679599034942" duration="1410000" />
-    </task>
-    <task id="LOCAL-00033" summary="&quot;superdigit solved using long&quot;">
-      <created>1674000758987</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1674000758987</updated>
+      <workItem from="1679599034942" duration="1534000" />
+      <workItem from="1679601220700" duration="16000" />
+      <workItem from="1680030426806" duration="1008000" />
     </task>
     <task id="LOCAL-00034" summary="&quot;super digit using recursion has been solved&quot;">
       <created>1674001377044</created>
@@ -545,7 +539,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679516166604</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="isogram solved on codewars">
+      <created>1679600603456</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1679600603456</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -553,7 +554,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="delete duplicates complete" />
     <MESSAGE value="same tree completed first try" />
     <MESSAGE value="Maximum depth complete" />
     <MESSAGE value="symmetric tree checker complete" />
@@ -578,6 +578,7 @@
     <MESSAGE value="fibonacci sequence complete" />
     <MESSAGE value="getMiddle code wars complete" />
     <MESSAGE value="filter function is working" />
-    <option name="LAST_COMMIT_MESSAGE" value="filter function is working" />
+    <MESSAGE value="isogram solved on codewars" />
+    <option name="LAST_COMMIT_MESSAGE" value="isogram solved on codewars" />
   </component>
 </project>
